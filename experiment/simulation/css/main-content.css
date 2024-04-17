@@ -47,13 +47,15 @@ main{
 }
 
 .instruments{
-    position: absolute;
+    position: relative;
     display: inline-block;
     text-align: justify;
-    top: 88px;
-    left: 175px;
-    width: 610px;
-    font-size: 13.5px;
+    top: 60px;
+    width: 750px;
+    left: 190px;
+    
+    font-size: 17px;
+    
 }
 
 .instruction-main{
@@ -61,6 +63,16 @@ main{
     display: inline-block;
     top: 30px;
 }
+
+.instruction-main1 {
+    font-size: 20px;
+    display: block;
+    position: relative;
+    left: 0px;
+    top: 100px;
+}
+
+
 
 /* TEXT  */
 
@@ -88,42 +100,27 @@ main{
 
 .instruments-img{
     position: absolute;
-    width: 600px;
-    left: 60px;
-    top: 200px;
+    
+    left: 70px;
+    top: 300px;
 }
 
-.exp-image-section, .exp-image-section-gifs{
-    visibility: hidden;
-    position: absolute;
-    width: 700px;
-    top: 125px;
-    left: 50px;
-}
+
 
 /* TRANSBOXES  */
 
-.exp-transboxes{
-    visibility: hidden;
-    position: absolute;
-    /* border: 2px solid green; */
-}
-
 /* ARROWS  */
 
-.exp-arrows, .arr-next{
-    visibility: hidden;
-    position: absolute;
-    width: 50px;
-}
+
+
 
 /* BUTTONS  */
 
 .next-exp{
-    visibility: hidden;
+    
     position: absolute;
-    left: 730px;
-    top: 520px;
+    left: 830px;
+    top: 570px;
     padding: 10px 15px;
     color: white;
     background-color: rgb(20, 117, 228);
@@ -133,7 +130,3 @@ main{
     cursor: pointer;
 }
 
-.arr-next{
-    left: 680px;
-    top: 525px;
-}
