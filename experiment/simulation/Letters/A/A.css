@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 4;
+    bottom: 10%;
 }
 
 #canvas {
@@ -143,7 +144,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%; /* Ensure it fills the container */
-    height: 46%;
+    height: 60%;
 }
 
 .instruction-main {
@@ -155,6 +156,7 @@ body {
     height: 10%;
     bottom: 40%;
     font-size: 50px;
+    margin-top: 20px;
 }
 
 .instruction-main1 {
@@ -162,7 +164,7 @@ body {
    display: grid;
     justify-content: center;
     z-index: 0;
-   
+   bottom: 100%;
     height: 10%;
     
     
@@ -173,9 +175,23 @@ body {
     display: flex;
     justify-content: start;
     z-index: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
     height: 10%;
-    bottom: 40%;
-   
+    bottom: 51px;
+    font-size: 150%;
     left: -40%;
 }
+
+.rule {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    z-index: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
+    left: -100px;
+    bottom: 101px;
+    
+}   
+
