@@ -32,86 +32,89 @@ body {
     background-color: red;
     border-radius: 50%;
     transform: translate(-50%, -50%);
-    z-index: 5;
+    z-index: 0;
 }
-
 
 
 #stroke1 {
+    
     display: none;
     position: absolute;
-    top: 66px;
-    left: 143px;
-    width: 10px;
-    height: 264px;
-    transform: rotate(204deg);
+    top: 75px;
+    left: 140px;
+    width: 15px;
+    height: 245px;
+    
+
 }
 
 #stroke2 {
+    
     display: none;
     position: absolute;
-    top: 66px;
-    left: 250px;
-    width: 10px;
-    height: 264px;
-    transform: rotate(156deg);
+    top: 70px;
+    left: 140px;
+    width: 170px;
+    height: 125px;
+
 }
 
 #stroke3 {
+    
     display: none;
     position: absolute;
-    top: 158px;
-    left: 197px;
-    width: 10px;
-    height: 130px;
-    transform: rotate(90deg);
-}
+    top: 187px;
+    left: 140px;
+    width: 170px;
+    height: 132px;
 
+}
 #sbox {
     position: relative;
     left: 130px;
     width: 400px;
     height: 400px;
     z-index: -10;
-    
-}
-
-.arrrow1 {
-    position: absolute;
-    top: 60px;
-    left: 80px;
-    width: 40px;
-    height: 280px;
-    transform: rotate(207deg);
-    z-index: 0;
-}
-.arrrow2 {
-    position: absolute;
-    top: 60px;
-    left: 280px;
-    width: 40px;
-    height: 280px;
-    transform: rotate(153deg);
-    z-index: 0;
-}
-.arrrow3 {
-    position: absolute;
-    top: 200px;
-    left: 190px;
-    width: 30px;
-    height: 130px;
-    transform: rotate(90deg);
-    z-index: 0;
 }
 
 #trace {
     position: relative;
-    bottom: 10px;
-   right: 200px;
-    width: 330px;
-    height: 330px;
+    top: -01px;
+   right: 185px;
+    width: 300px;
+    height: 308px;
     z-index: -10;
-   
+}
+
+.arrrow1 {
+    
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 40px;
+    height: 240px;
+    transform: rotate(180deg);
+    z-index: 0;
+}
+.arrrow2 {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    width: 20px;
+    height: 110px;
+    transform: rotate(180deg);
+    z-index: 0;
+}
+.arrrow3 {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 310px;
+    width: 20px;
+    height: 110px;
+    transform: rotate(180deg);
+    z-index: 0;
 }
 
 
@@ -177,7 +180,7 @@ body {
     z-index: 0;
     
     height: 10%;
-    bottom: 45px;
+    bottom: 37px;
     font-size: 150%;
     left: -40%;
 }

@@ -8,7 +8,7 @@ const canvas = document.getElementById('canvas');
         const arrow1 = document.getElementById('arrow1');
         const arrow2 = document.getElementById('arrow2');
         const arrow3 = document.getElementById('arrow3');
-    
+        
         let isDrawing = false;
         let startX = 0;
         let startY = 0;
@@ -18,6 +18,7 @@ const canvas = document.getElementById('canvas');
         arrow1.style.display = 'block'; // Initially, arrow1 is visible
     arrow2.style.display = 'none';
     arrow3.style.display = 'none';
+    
 
     
         function checkDotTolerance(dot, x, y) {
@@ -115,6 +116,8 @@ const canvas = document.getElementById('canvas');
                         strokeId = '3';
                         nextConnection = 'dot3-dot1'; // Optionally loop back or end the sequence
                         arrow3.style.display = 'none';
+                        button.style.display = 'block';
+                        congrats.style.display = 'block';
                         break;
                 }
     
