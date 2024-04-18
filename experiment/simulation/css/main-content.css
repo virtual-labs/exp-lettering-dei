@@ -1,126 +1,75 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; /* Ensures that padding and border are included in the element's total width and height */
 }
 
-main{
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+main {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh; /* Ensures main is at least as tall as the viewport */
 }
 
-
-.simulation-container{
-    background-color: rgba(220,229,236,255);
-    width: 1000px;
-    height: 700px;
-    /* padding: 5px; */
+.simulation-container {
+    background-color: rgba(220, 229, 236, 1);
+    width: 90%; /* Responsive width */
+    max-width: 1000px; /* Max width to maintain design integrity */
+    min-height: 700px; /* Minimum height */
+    margin: 20px auto; /* Auto margins for centering */
 }
 
-.title{
-    margin: 0px;
+.title {
+    margin: 0;
     padding: 5px;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     background-color: rgb(0, 140, 255);
     color: white;
     display: flex;
     justify-content: center;
+    width: 100%; /* Ensure it fills the container */
 }
 
-/* Container Text  */
-
-.content-container{
-    position: absolute;
+.content-container, .instruction-main {
+    position: relative; /* Adjusted to relative for better flow control */
     padding: 10px;
 }
 
-
-.content-main{
-    position: absolute;
-    display: inline-block;
+.content-main, .instruments, .instructions {
+    position: relative; /* Changed to relative */
+    display: block; /* Using block to better handle responsive adjustments */
+    margin: 10px auto; /* Centering */
+    width: 80%; /* Relative width */
     text-align: justify;
-    top: 30px;
-    left: 100px;
-    width: 690px;
-    font-size: 18px;
+    font-size: 1em; /* Relative font size */
 }
 
-.instruments{
+.instruction-main1, .step {
     position: relative;
-    display: inline-block;
-    text-align: justify;
-    top: 60px;
-    width: 750px;
-    left: 190px;
-    
-    font-size: 17px;
-    
-}
-
-.instruction-main{
-    position: absolute;
-    display: inline-block;
-    top: 30px;
-}
-
-.instruction-main1 {
-    font-size: 20px;
     display: block;
-    position: relative;
-    left: 0px;
-    top: 100px;
+    width: 100%; /* Ensure full width usage */
 }
 
-
-
-/* TEXT  */
-
-.step{
-    display: inline-block;
-}
-
-.step-number{
+.step-number {
     background-color: rgb(20, 117, 228);
     color: white;
     padding: 5px 7px;
     border-radius: 5px;
 }
 
-.instructions{
-    position: absolute;
-    display: inline;
-    left: 95px;
-    width: 690px;
-    text-align: justify;
-    font-size: 18px;
-}
-
-/* IMAGES  */
-
-.instruments-img{
+.next-exp {
     position: absolute;
     
-    left: 70px;
-    top: 300px;
-}
-
-
-
-/* TRANSBOXES  */
-
-/* ARROWS  */
-
-
-
-
-/* BUTTONS  */
-
-.next-exp{
-    
-    position: absolute;
-    left: 830px;
-    top: 570px;
+    left: 90%;
+    transform: translateX(-50%); /* Centering button horizontally */
+    bottom: 20px; /* Position from the bottom */
     padding: 10px 15px;
     color: white;
     background-color: rgb(20, 117, 228);
@@ -128,5 +77,27 @@ main{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+
+   
 }
 
+@media (max-width: 768px) {
+    .simulation-container {
+        width: 95%; /* Using more of the screen on smaller devices */
+    }
+
+    .content-main, .instruments, .instructions {
+        width: 90%; /* Slightly wider on small screens */
+        font-size: 0.9em; /* Smaller font size */
+    }
+
+    
+}
+
+@media (max-width: 480px) {
+    .title, .content-main, .instruments, .instructions {
+        font-size: 0.8em; /* Even smaller font sizes for very small devices */
+    }
+
+   
+}
