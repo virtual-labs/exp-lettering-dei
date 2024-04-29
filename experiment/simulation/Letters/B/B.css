@@ -215,9 +215,9 @@ body {
 .next-exp {
     position: absolute;
     display: none;
-    left: 75%;
+    left: 68%;
     transform: translateX(-50%); /* Centering button horizontally */
-    bottom: 20px; /* Position from the bottom */
+    bottom: 200px; /* Position from the bottom */
     padding: 10px 15px;
     color: white;
     background-color: rgb(20, 117, 228);
@@ -227,5 +227,5 @@ body {
     cursor: pointer;
 
 
-   bottom: 90px;
+   
 }
