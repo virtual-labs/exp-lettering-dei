@@ -23,6 +23,7 @@ body {
     top: 0;
     left: 0;
     border: 1px solid black;
+    z-index: 10;
     cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAhYWFAPqv6ADgm4sASkpKAJ/l7QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAAAAAAEiIAAAAAAAAAAAAAAAAAAxEiIAAAAAAAAAAAAAAAADMxEgAAAAAAAAAAAAAAAAMzMxAAAAAAAAAAAAAAAAAzMzMAAAAAAAAAAAAAAAADMzMwAAAAAAAAAAAAAAAAMzMzAAAAAAAAAAAAAAAAAzMzMAAAAAAAAAAAAAAAADMzMwAAAAAAAAAAAAAAAABTMzAAAAAAAAAAAAAAAAAFVTMAAAAAAAAAAAAAAAAABFVQAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////P////h////wP///4H///8D///+B////A////gf///wP///4H///+D////B////w////8///////////////w=='), auto;
 }
 
@@ -33,87 +34,92 @@ body {
     background-color: red;
     border-radius: 50%;
     transform: translate(-50%, -50%);
-    z-index: 4;
 }
-
 
 
 #stroke1 {
-    display: none;
-    position: absolute;
-    top: 66px;
-    left: 143px;
-    width: 10px;
-    height: 264px;
-    transform: rotate(204deg);
     
+   display: none;
+    position: absolute;
+    top: 50px;
+    left: 82px;
+    width: 230px;
+    height: 280px;
+    z-index: -1;
+    
+
 }
 
 #stroke2 {
-    display: none;
+    
+   display: none;
     position: absolute;
-    top: 66px;
-    left: 250px;
-    width: 10px;
-    height: 264px;
-    transform: rotate(156deg);
+    top: 193px;
+    left: 292px;
+    width: 15px;
+    height: 75px;
+    transform: rotate(180deg);
+    
+
 }
 
 #stroke3 {
     display: none;
     position: absolute;
-    top: 150px;
-    left: 197px;
-    width: 10px;
-    height: 130px;
+    top: 155px;
+    left: 257px;
+    width: 15px;
+    height: 85px;
     transform: rotate(90deg);
-}
 
+}
 #sbox {
     position: relative;
-    left: 126.5px;
+    left: 112px;
     width: 400px;
     height: 400px;
     z-index: -10;
-    
-}
-
-.arrrow1 {
-    position: absolute;
-    top: 60px;
-    left: 80px;
-    width: 40px;
-    height: 280px;
-    transform: rotate(207deg);
-    z-index: 0;
-}
-.arrrow2 {
-    position: absolute;
-    top: 60px;
-    left: 280px;
-    width: 40px;
-    height: 280px;
-    transform: rotate(153deg);
-    z-index: 0;
-}
-.arrrow3 {
-    position: absolute;
-    top: 200px;
-    left: 190px;
-    width: 30px;
-    height: 130px;
-    transform: rotate(90deg);
-    z-index: 0;
 }
 
 #trace {
     position: relative;
-    bottom: 10px;
+    top: -12px;
    right: 200px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 280px;
     z-index: -10;
+}
+
+.arrrow1 {
    
+    position: absolute;
+    top: 95px;
+    left: 120px;
+    width: 70px;
+    height: 170px;
+    transform: rotate(0deg);
+    z-index: -10;
+    transform: scalex(-1)
+}
+.arrrow2 {
+    display: none;
+    position: absolute;
+    top: 195px;
+    left: 310px;
+    width: 15px;
+    height: 70px;
+    transform: rotate(360deg);
+    z-index: 0;
+}
+.arrrow3 {
+    display: none;
+    position: absolute;
+    top: 145px;
+    left: 255px;
+    width: 15px;
+    height: 70px;
+    transform: rotate(270deg);
+    z-index: 0;
 }
 
 
@@ -179,7 +185,7 @@ body {
     z-index: 0;
     
     height: 10%;
-    bottom: 45px;
+    bottom: 37px;
     font-size: 150%;
     left: -40%;
 }
@@ -212,9 +218,9 @@ body {
 .next-exp {
     position: absolute;
     display: none;
-    left: 75%;
+    left: 68%;
     transform: translateX(-50%); /* Centering button horizontally */
-    bottom: 20px; /* Position from the bottom */
+    bottom: 200px; /* Position from the bottom */
     padding: 10px 15px;
     color: white;
     background-color: rgb(20, 117, 228);
@@ -224,5 +230,5 @@ body {
     cursor: pointer;
 
 
-   bottom: 90px;
+   
 }
