@@ -43,7 +43,7 @@ body {
     display: none;
     position: absolute;
     top: 75px;
-    left: 140px;
+    left: 130px;
     width: 15px;
     height: 245px;
     
@@ -54,9 +54,9 @@ body {
     
     display: none;
     position: absolute;
-    top: 70px;
+    top: 74px;
     left: 140px;
-    width: 170px;
+    width: 150px;
     height: 125px;
 
 }
@@ -67,13 +67,13 @@ body {
     position: absolute;
     top: 187px;
     left: 140px;
-    width: 170px;
+    width: 150px;
     height: 132px;
 
 }
 #sbox {
     position: relative;
-    left: 130px;
+    left: 90px;
     width: 400px;
     height: 400px;
     z-index: -10;
@@ -81,10 +81,10 @@ body {
 
 #trace {
     position: relative;
-    top: -01px;
-   right: 185px;
-    width: 300px;
-    height: 308px;
+    top: -4px;
+   right: 189px;
+    width: 250px;
+    height: 252px;
     z-index: -10;
 }
 
@@ -215,9 +215,9 @@ body {
 .next-exp {
     position: absolute;
     display: none;
-    left: 75%;
+    left: 68%;
     transform: translateX(-50%); /* Centering button horizontally */
-    bottom: 20px; /* Position from the bottom */
+    bottom: 200px; /* Position from the bottom */
     padding: 10px 15px;
     color: white;
     background-color: rgb(20, 117, 228);
@@ -227,5 +227,5 @@ body {
     cursor: pointer;
 
 
-   bottom: 90px;
+   
 }
