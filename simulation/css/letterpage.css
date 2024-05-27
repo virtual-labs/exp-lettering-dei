@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures main is at least as tall as the viewport */
+}
+
+.simulation-container {
+    background-color: rgba(220, 229, 236, 1);
+    width: 90%; /* Responsive width */
+    max-width: 1000px; /* Max width to maintain design integrity */
+    min-height: 700px; /* Minimum height */
+    margin: 20px auto; /* Auto margins for centering */
+    position: relative; /* Needed for absolute positioning of child elements */
+}
+
+.title {
+    margin: 0;
+    padding: 5px;
+    letter-spacing: 0.1em;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensure it fills the container */
+}
+
+.content-container {
+    padding: 10px;
+}
+
+.content-main, .lettering-image1, .lettering-image2 {
+    position: absolute;
+    display: block;
+    text-align: justify;
+    width: 80%; /* Responsive width */
+    left: 10%; /* Center content */
+    right: 10%; /* Maintain padding on the right */
+}
+
+.instruction-main {
+    position: relative;
+    display: grid;
+}
+
+.lettering-image1  {
+    top: 200px;
+    width: 50%;
+    height: auto;
+    left: 0%;
+   
+}
+.lettering-image2 {
+    top: 200px; /* Adjust top spacing */
+    width: 51%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+   left: 50%;
+}
+
+.aboutimg1 {
+    position: absolute;
+    top: 565px; /* Positioning from the top */
+    left: 30%; /* Center horizontally */
+    transform: translateX(-50%); /* Precisely center */
+}
+.aboutimg2  {
+    position: absolute;
+    top: 560px; /* Positioning from the top */
+    left: 80%; /* Center horizontally */
+    transform: translateX(-50%); /* Precisely center */
+}
+.next-exp {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Center button horizontally */
+    bottom: 20px; /* Position from the bottom */
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(20, 117, 228);
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .content-main {
+        width: 95%; /* Using more of the screen on smaller devices */
+        left: 2.5%; /* Adjusting left for padding */
+        right: 2.5%; /* Adjusting right for padding */
+    }
+    .lettering-image1 {
+        top: 150px; /* Adjusting top spacing */
+    }
+
+    .lettering-image2 {
+        top: 150px; /* Adjusting top spacing */
+    }
+
+    .next-exp {
+        width: 80%; /* Wider button for easier interaction on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .title, .content-main, .lettering-image1, .lettering-image2 {
+        font-size: 0.8em; /* Smaller text for better readability on small devices */
+    }
+
+    .next-exp {
+        width: 90%; /* Almost full width for the button */
+    }
+}

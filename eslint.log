@@ -1,0 +1,30 @@
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/A/A.js
+  119:25  warning  'button' is not defined    no-undef
+  120:25  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/B/B.js
+   6:7   warning  'arrow1' is assigned a value but never used  no-unused-vars
+   7:7   warning  'arrow2' is assigned a value but never used  no-unused-vars
+   8:7   warning  'arrow3' is assigned a value but never used  no-unused-vars
+  81:13  warning  'button' is not defined                      no-undef
+  82:25  warning  'congrats' is not defined                    no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/D/D.js
+  7:7  warning  'arrow1' is assigned a value but never used  no-unused-vars
+  8:7  warning  'arrow2' is assigned a value but never used  no-unused-vars
+  9:7  warning  'arrow3' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/F/F.js
+  23:1  warning  'arrow4' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/U/U.js
+  4:7  warning  'dot2' is assigned a value but never used  no-unused-vars
+  7:7  warning  'dot6' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/V/V.js
+  4:7  warning  'dot2' is assigned a value but never used  no-unused-vars
+  7:7  warning  'dot6' is assigned a value but never used  no-unused-vars
+
+✖ 15 problems (0 errors, 15 warnings)
+
