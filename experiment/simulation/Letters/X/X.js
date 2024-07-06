@@ -102,7 +102,8 @@ function stopDrawing(e) {
             case 'dot6-dot1':
                 strokeId = '2';
                 arrow2.style.display = 'none';
-       
+                button.style.display = 'block';
+                congrats.style.display = 'block';
                 break;
         }
 

@@ -102,6 +102,8 @@ function stopDrawing(e) {
             if (Math.hypot(x - (dot4.offsetLeft + 5), y - (dot4.offsetTop + 5)) <= tolerance) {
                 document.getElementById('stroke3').style.display = 'block';
                 console.log('Stopped drawing near', dot4.id);
+                button.style.display = 'block';
+                congrats.style.display = 'block';
                 arrow3.style.display = 'none'; // Hide the arrow
                 nextConnection = ''; // All connections done
             } else {

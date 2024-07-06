@@ -118,6 +118,8 @@ const canvas = document.getElementById('canvas');
                         strokeId = '3';
                         nextConnection = 'dot3-dot1'; // Optionally loop back or end the sequence
                         arrow3.style.display = 'none';
+                        button.style.display = 'block';
+                        congrats.style.display = 'block';
                         break;
                 }
 

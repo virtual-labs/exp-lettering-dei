@@ -55,7 +55,7 @@ function draw(e) {
     startX = x;
     startY = y;
     ctx.strokeStyle = 'black'; // Change line color to black
-    ctx.lineWidth = 6;  
+    ctx.lineWidth = 6;
 }
 
 function stopDrawing(e) {
@@ -78,6 +78,8 @@ function stopDrawing(e) {
         nextConnection = ''; // All connections done
         dot1.style.display = 'none'; // Hide the dot
         dot2.style.display = 'none'; // Hide the dot
+        button.style.display = 'block';
+        congrats.style.display = 'block';
         ctx.clearRect(0, 0, canvas.width, canvas.height);
     } else {
         alert('Complete the line. Try Again!');

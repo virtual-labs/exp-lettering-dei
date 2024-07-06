@@ -64,7 +64,7 @@ function startDrawing(e) {
     } else {
         drawToleranceCircle(nextConnection.includes('dot1') ? dot1 : nextConnection.includes('dot2') ? dot2 : dot5, ctx);
     }
-    
+
     isDrawing = true;
     startX = targetDot.offsetLeft + 5;
     startY = targetDot.offsetTop + 5;
@@ -132,6 +132,8 @@ function stopDrawing(e) {
             case 'dot1-dot6':
                 strokeId = '4';
                 arrow4.style.display = 'none';
+                button.style.display = 'block';
+                congrats.style.display = 'block';
                 // Optionally loop back or end the sequence
                 // In this case, you may want to reset the connections, e.g., nextConnection = 'dot3-dot1';
                 break;

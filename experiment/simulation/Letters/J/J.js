@@ -61,6 +61,8 @@ const canvas = document.getElementById('canvas');
                 document.getElementById('stroke1').style.display = 'block';
                 console.log('Stopped drawing near', dot1.id);
                 arrow1.style.display = 'none'; // Hide the arrow
+                button.style.display = 'block';
+                congrats.style.display = 'block';
                 nextConnection = ''; // All connections done
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
             } else {
