@@ -122,6 +122,15 @@ function stopDrawing(e) {
                 strokeId = '3';
                 dot5.style.zIndex = 0; // Reset dot5 z-index
                 arrow3.style.display = 'none';
+                button.style.display = 'block';
+                congrats.style.display = 'block';
+                dot5.style.display = 'none'; // Hide dot5
+                dot6.style.display = 'none'; // Hide dot6
+                dot4.style.display = 'none'; // Hide dot4
+                dot2.style.display = 'none'; // Hide dot2
+                dot1.style.display = 'none'; // Hide dot1
+                dot3.style.display = 'none'; // Hide dot3
+
                 // Optionally loop back or end the sequence
                 // In this case, you may want to reset the connections, e.g., nextConnection = 'dot3-dot1';
                 break;

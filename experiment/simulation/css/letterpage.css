@@ -61,6 +61,7 @@ main {
     width: 50%;
     height: auto;
     left: 0%;
+    cursor: pointer;
    
 }
 .lettering-image2 {
@@ -68,6 +69,7 @@ main {
     width: 51%; /* Responsive width */
     height: auto; /* Maintain aspect ratio */
    left: 50%;
+    cursor: pointer;
 }
 
 .aboutimg1 {

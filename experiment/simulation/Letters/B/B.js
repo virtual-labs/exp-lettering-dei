@@ -79,7 +79,7 @@ function stopDrawing(e) {
         } else if (nextConnection === 'dot4-dot1') {
             document.getElementById('arrow3').style.display = 'none';
             button.style.display = 'block';
-                        congrats.style.display = 'block';
+            congrats.style.display = 'block';
             nextConnection = ''; // All connections done
         }
         ctx.clearRect(0, 0, canvas.width, canvas.height);

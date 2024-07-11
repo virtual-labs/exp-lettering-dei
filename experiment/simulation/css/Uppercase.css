@@ -63,8 +63,16 @@ main {
     width: 12%; /* Use full container width */
     padding: 0 15px; /* Padding on sides */
     font-size: 17px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
     
 }
+
+.lettering-image1:hover {
+    /* Step 3: Enlarge the image on hover */
+    transform: scale(1.9); /* Adjust the scale value as needed */
+  }
 
 .next-exp {
     position: absolute;

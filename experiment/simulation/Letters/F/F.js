@@ -117,6 +117,8 @@ function stopDrawing(e) {
                 strokeId = '3';
                 nextConnection = 'none'; // No next connection after dot4-dot5
                 arrow3.style.display = 'none';
+                button.style.display = 'block';
+                congrats.style.display = 'block';
                 // Optionally, you may want to add more logic here for further steps in your application
                 break;
         }

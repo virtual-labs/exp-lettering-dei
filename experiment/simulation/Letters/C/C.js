@@ -62,6 +62,8 @@ function stopDrawing(e) {
         console.log('Stopped drawing near', dot1.id);
         arrow1.style.display = 'none'; // Hide the arrow
         nextConnection = ''; // All connections done
+        button.style.display = 'block';
+        congrats.style.display = 'block';
         ctx.clearRect(0, 0, canvas.width, canvas.height);
     } else {
         alert('Complete the line. Try Again!');
