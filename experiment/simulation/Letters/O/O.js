@@ -48,7 +48,7 @@ function draw(e) {
     startX = x;
     startY = y;
     ctx.strokeStyle = 'black'; // Change line color to black
-    ctx.lineWidth = 6;  
+    ctx.lineWidth = 6;
 }
 
 function stopDrawing(e) {
@@ -61,6 +61,8 @@ function stopDrawing(e) {
         document.getElementById('stroke1').style.display = 'block';
         console.log('Stopped drawing near', dot1.id);
         arrow1.style.display = 'none'; // Hide the arrow
+        button.style.display = 'block';
+        congrats.style.display = 'block';
         nextConnection = ''; // All connections done
         ctx.clearRect(0, 0, canvas.width, canvas.height);
     } else {

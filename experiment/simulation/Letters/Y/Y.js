@@ -116,6 +116,8 @@ function stopDrawing(e) {
                 strokeId = '3';
                 arrow3.style.display = 'none';
                 dot2.style.display = 'none';
+                button.style.display = 'block';
+                congrats.style.display = 'block';
                 // Optionally loop back or end the sequence
                 // In this case, you may want to reset the connections, e.g., nextConnection = 'dot3-dot1';
                 break;

@@ -82,6 +82,8 @@ function stopDrawing(e) {
         arrow2.style.display = 'none'; // Hide the arrow
         dot4.style.display = 'none'; // Hide the second dot
         dot1.style.display = 'none'; // Hide the third dot
+        button.style.display = 'block';
+        congrats.style.display = 'block';
         nextConnection = ''; // All connections done
         ctx.clearRect(0, 0, canvas.width, canvas.height);
     } else {
