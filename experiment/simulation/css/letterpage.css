@@ -53,11 +53,11 @@ main {
 
 .lettering-image1:hover {
     /*Enlarge the image on hover */
-    transform: scale(1.9); /* Adjust the scale value as needed */
+    transform: scale(1.1); /* Adjust the scale value as needed */
   }
 .lettering-image2:hover {
     /*Enlarge the image on hover */
-    transform: scale(1.9); /* Adjust the scale value as needed */
+    transform: scale(1.1); /* Adjust the scale value as needed */
   }
 
 .instruction-main {
