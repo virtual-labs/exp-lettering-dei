@@ -46,18 +46,18 @@ main {
     position: absolute;
     display: block;
     text-align: justify;
-    width: 80%; /* Responsive width */
+    width: 75%; /* Responsive width */
     left: 10%; /* Center content */
     right: 10%; /* Maintain padding on the right */
 }
 
 .lettering-image1:hover {
     /*Enlarge the image on hover */
-    transform: scale(1.05); /* Adjust the scale value as needed */
+    transform: scale(1.2); /* Adjust the scale value as needed */
   }
 .lettering-image2:hover {
     /*Enlarge the image on hover */
-    transform: scale(1.05); /* Adjust the scale value as needed */
+    transform: scale(1.2); /* Adjust the scale value as needed */
   }
 
 .instruction-main {
