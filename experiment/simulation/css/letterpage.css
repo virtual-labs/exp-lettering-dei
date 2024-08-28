@@ -46,7 +46,7 @@ main {
     position: absolute;
     display: block;
     text-align: justify;
-    width: 80%; /* Responsive width */
+    width: 75%; /* Responsive width */
     left: 10%; /* Center content */
     right: 10%; /* Maintain padding on the right */
 }
