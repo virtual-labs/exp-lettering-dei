@@ -51,6 +51,15 @@ main {
     right: 10%; /* Maintain padding on the right */
 }
 
+.lettering-image1:hover {
+    /*Enlarge the image on hover */
+    transform: scale(1.9); /* Adjust the scale value as needed */
+  }
+.lettering-image2:hover {
+    /*Enlarge the image on hover */
+    transform: scale(1.9); /* Adjust the scale value as needed */
+  }
+
 .instruction-main {
     position: relative;
     display: grid;
