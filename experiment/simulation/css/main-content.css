@@ -24,6 +24,7 @@ main {
     max-width: 1000px; /* Max width to maintain design integrity */
     min-height: 700px; /* Minimum height */
     margin: 20px auto; /* Auto margins for centering */
+    margin-top: 0px;
 }
 
 .title {
