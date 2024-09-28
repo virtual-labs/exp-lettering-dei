@@ -20,5 +20,5 @@ Fill a brief description of this experiment here
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Nihal Saran Das Duggirala | Student | Mechanical Engineering | Dayalbagh Educational Institute | nihalsarandasd@gmail.com
+2 | Shyamendra Singh | Student | Agricultural Engineering | Dayalbagh Educational Institute | shyamendra.me@gmail.com
