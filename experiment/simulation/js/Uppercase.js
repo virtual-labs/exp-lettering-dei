@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Adding event listeners
     A.addEventListener('click', function() {
-        window.location.href = 'LettersPage/A.html'; // Change URL to your specific page for upper case
+        window.location.href = 'LettersPage/CapA/A.html'; // Change URL to your specific page for upper case
     });
 
     B.addEventListener('click', function() {
