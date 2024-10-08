@@ -4,10 +4,8 @@ const dot3 = document.getElementById('dot3');
 const dot1 = document.getElementById('dot1');
 const dot2 = document.getElementById('dot2');
 const dot4 = document.getElementById('dot4');
-const dot5 = document.getElementById('dot5');
 const arrow1 = document.getElementById('arrow1');
 const arrow2 = document.getElementById('arrow2');
-const arrow3 = document.getElementById('arrow3');
 
 let isDrawing = false;
 let startX = 0;
@@ -17,9 +15,6 @@ let nextConnection = 'dot3-dot1'; // Start with connecting dot3 to dot1
 
 arrow1.style.display = 'block'; // Initially, arrow1 is visible
 arrow2.style.display = 'none';
-arrow3.style.display = 'none';
-
-
 
 function checkDotTolerance(dot, x, y) {
     return Math.hypot(x - (dot.offsetLeft + 5), y - (dot.offsetTop + 5)) <= tolerance;
@@ -40,11 +35,10 @@ function startDrawing(e) {
 
     switch (nextConnection) {
         case 'dot3-dot1':
-        case 'dot3-dot2':
             targetDot = dot3;
             break;
-        case 'dot4-dot5':
-            targetDot = dot4;
+        case 'dot2-dot4':
+            targetDot = dot2;
             break;
     }
 
@@ -55,7 +49,7 @@ function startDrawing(e) {
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     drawToleranceCircle(targetDot, ctx);
-    drawToleranceCircle(nextConnection.includes('dot1') ? dot1 : nextConnection.includes('dot2') ? dot2 : dot5, ctx);
+    drawToleranceCircle(nextConnection.includes('dot1') ? dot1 : dot4, ctx);
 
     isDrawing = true;
     startX = targetDot.offsetLeft + 5;
@@ -88,11 +82,8 @@ function stopDrawing(e) {
         case 'dot3-dot1':
             targetDot = dot1;
             break;
-        case 'dot3-dot2':
-            targetDot = dot2;
-            break;
-        case 'dot4-dot5':
-            targetDot = dot5;
+        case 'dot2-dot4':
+            targetDot = dot4;
             break;
     }
 
@@ -102,28 +93,24 @@ function stopDrawing(e) {
         switch (nextConnection) {
             case 'dot3-dot1':
                 strokeId = '1';
-                nextConnection = 'dot3-dot2'; // Set next connection to dot3-dot2
+                nextConnection = 'dot2-dot4'; // Set next connection to dot2-dot4
                 arrow1.style.display = 'none';
                 arrow2.style.display = 'block';
+                dot1.style.display = 'none';
+                dot3.style.display = 'none';
                 break;
-            case 'dot3-dot2':
+            case 'dot2-dot4':
                 strokeId = '2';
-                nextConnection = 'dot4-dot5'; // Set next connection to dot4-dot5
+                nextConnection = 'dot3-dot1'; // Optionally loop back to the start
                 arrow2.style.display = 'none';
-                arrow3.style.display = 'block';
-                break;
-            case 'dot4-dot5':
-                strokeId = '3';
-                nextConnection = 'dot3-dot1'; // Optionally loop back or end the sequence
-                arrow3.style.display = 'none';
+                dot2.style.display = 'none';
+                dot4.style.display = 'none';
                 button.style.display = 'block';
-                congrats.style.display = 'block';
                 break;
         }
 
         if (strokeId) {
             document.getElementById('stroke' + strokeId).style.display = 'block';
-
         }
         ctx.clearRect(0, 0, canvas.width, canvas.height);
     } else {
@@ -136,3 +123,5 @@ function stopDrawing(e) {
 canvas.addEventListener('mousedown', startDrawing);
 canvas.addEventListener('mousemove', draw);
 canvas.addEventListener('mouseup', stopDrawing);
+
+
