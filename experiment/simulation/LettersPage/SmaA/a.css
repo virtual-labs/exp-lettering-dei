@@ -219,7 +219,7 @@ body {
 
 .next-exp {
     position: absolute;
-    display: block;
+    display: none;
     left: 75%;
     transform: translateX(-50%); /* Centering button horizontally */
     padding: 10px 15px;
