@@ -42,11 +42,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     D.addEventListener('click', function() {
-        window.location.href = 'LettersPage/SmaA/a.html'; // Change URL to your specific page for lower case
+        window.location.href = 'LettersPage/SmaD/d.html'; // Change URL to your specific page for lower case
     });
 
     E.addEventListener('click', function() {
-        window.location.href = 'LettersPage/SmaD/d.html'; // Change URL to your specific page for upper case
+        window.location.href = 'LettersPage/SmaD/e.html'; // Change URL to your specific page for upper case
     });
 
     F.addEventListener('click', function() {

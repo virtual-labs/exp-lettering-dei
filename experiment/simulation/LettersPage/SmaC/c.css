@@ -210,9 +210,8 @@ body {
     display: none;
     justify-content: start;
     z-index: 0;
-    
     height: 10%;
-    bottom: 40%;
+    top: 80%;
     font-size: 150%;
    
 }

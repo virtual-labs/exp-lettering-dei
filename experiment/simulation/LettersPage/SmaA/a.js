@@ -106,6 +106,7 @@ function stopDrawing(e) {
                 dot2.style.display = 'none';
                 dot4.style.display = 'none';
                 button.style.display = 'block';
+                congrats.style.display = 'block';
                 break;
         }
 
