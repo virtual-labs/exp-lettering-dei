@@ -11,10 +11,10 @@ let isDrawing = false;
 let startX = 0;
 let startY = 0;
 let tolerance = 30; // Tolerance radius for dot connection
-let nextConnection = 'dot2-dot4'; // Start with connecting dot2 to dot4
+let nextConnection = 'dot3-dot1'; // Start with connecting dot3 to dot1
 
-arrow1.style.display = 'none'; // Initially, arrow1 is not visible
-arrow2.style.display = 'block';
+arrow1.style.display = 'block'; // Initially, arrow1 is visible
+arrow2.style.display = 'none';
 
 function checkDotTolerance(dot, x, y) {
     return Math.hypot(x - (dot.offsetLeft + 5), y - (dot.offsetTop + 5)) <= tolerance;
@@ -34,11 +34,11 @@ function startDrawing(e) {
     let targetDot;
 
     switch (nextConnection) {
-        case 'dot2-dot4':
-            targetDot = dot2;
-            break;
         case 'dot3-dot1':
             targetDot = dot3;
+            break;
+        case 'dot2-dot4':
+            targetDot = dot2;
             break;
     }
 
@@ -79,11 +79,11 @@ function stopDrawing(e) {
     let targetDot;
 
     switch (nextConnection) {
-        case 'dot2-dot4':
-            targetDot = dot4;
-            break;
         case 'dot3-dot1':
             targetDot = dot1;
+            break;
+        case 'dot2-dot4':
+            targetDot = dot4;
             break;
     }
 
@@ -91,24 +91,22 @@ function stopDrawing(e) {
         console.log('Stopped drawing near', targetDot.id);
         let strokeId;
         switch (nextConnection) {
-            case 'dot2-dot4':
-                strokeId = '2';
-                nextConnection = 'dot3-dot1'; // Set next connection to dot3-dot1
-                arrow2.style.display = 'none';
-                arrow1.style.display = 'block';
-                dot2.style.display = 'none';
-                dot4.style.display = 'none';
-                dot1.style.zIndex = '10';
-                dot3.style.zIndex = '10';
-                break;
             case 'dot3-dot1':
                 strokeId = '1';
-                nextConnection = 'dot2-dot4'; // Optionally loop back to the start
+                nextConnection = 'dot2-dot4'; // Set next connection to dot2-dot4
                 arrow1.style.display = 'none';
+                arrow2.style.display = 'block';
                 dot1.style.display = 'none';
                 dot3.style.display = 'none';
-                button.style.display = 'block';
+                break;
+            case 'dot2-dot4':
+                strokeId = '2';
+                nextConnection = 'dot3-dot1'; // Optionally loop back to the start
+                arrow2.style.display = 'none';
+                dot2.style.display = 'none';
                 congrats.style.display = 'block';
+                dot4.style.display = 'none';
+                button.style.display = 'block';
                 break;
         }
 
