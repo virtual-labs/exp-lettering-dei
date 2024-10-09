@@ -30,31 +30,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Adding event listeners
     A.addEventListener('click', function() {
-        window.location.href = 'LettersPage/CapA/A.html'; // Change URL to your specific page for upper case
+        window.location.href = 'LettersPage/SmaA/a.html'; // Change URL to your specific page for upper case
     });
 
     B.addEventListener('click', function() {
-        window.location.href = 'LettersPage/B.html'; // Change URL to your specific page for lower case
+        window.location.href = 'LettersPage/SmaB/b.html'; // Change URL to your specific page for lower case
     });
 
     C.addEventListener('click', function() {
-        window.location.href = 'LettersPage/C.html'; // Change URL to your specific page for upper case
+        window.location.href = 'LettersPage/SmaC/c.html'; // Change URL to your specific page for upper case'; // Change URL to your specific page for upper case
     });
 
     D.addEventListener('click', function() {
-        window.location.href = 'LettersPage/D.html'; // Change URL to your specific page for lower case
+        window.location.href = 'LettersPage/SmaD/d.html'; // Change URL to your specific page for lower case
     });
 
     E.addEventListener('click', function() {
-        window.location.href = 'LettersPage/E.html'; // Change URL to your specific page for upper case
+        window.location.href = 'LettersPage/SmaE/e.html'; // Change URL to your specific page for upper case
     });
 
     F.addEventListener('click', function() {
-        window.location.href = 'LettersPage/F.html'; // Change URL to your specific page for lower case
+        window.location.href = 'LettersPage/SmaF/f.html'; // Change URL to your specific page for lower case
     });
 
     G.addEventListener('click', function() {
-        window.location.href = 'LettersPage/G.html'; // Change URL to your specific page for upper case
+        window.location.href = 'LettersPage/SmaG/g.html'; // Change URL to your specific page for upper case
     });
 
     H.addEventListener('click', function() {
