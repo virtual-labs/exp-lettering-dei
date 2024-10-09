@@ -46,15 +46,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     E.addEventListener('click', function() {
-        window.location.href = 'LettersPage/SmaD/e.html'; // Change URL to your specific page for upper case
+        window.location.href = 'LettersPage/SmaE/e.html'; // Change URL to your specific page for upper case
     });
 
     F.addEventListener('click', function() {
-        window.location.href = 'LettersPage/SmaE/e.html'; // Change URL to your specific page for lower case
+        window.location.href = 'LettersPage/SmaF/f.html'; // Change URL to your specific page for lower case
     });
 
     G.addEventListener('click', function() {
-        window.location.href = 'LettersPage/SmaF/f.html'; // Change URL to your specific page for upper case
+        window.location.href = 'LettersPage/SmaG/g.html'; // Change URL to your specific page for upper case
     });
 
     H.addEventListener('click', function() {
