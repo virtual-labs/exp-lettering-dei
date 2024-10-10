@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     H.addEventListener('click', function() {
-        window.location.href = 'LettersPage/H.html'; // Change URL to your specific page for lower case
+        window.location.href = 'LettersPage/SmaH/h.html'; // Change URL to your specific page for lower case
     });
 
     I.addEventListener('click', function() {
