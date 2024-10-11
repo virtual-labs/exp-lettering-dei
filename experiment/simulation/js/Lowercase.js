@@ -62,31 +62,31 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     I.addEventListener('click', function() {
-        window.location.href = 'LettersPage/I.html'; // Change URL to your specific page for upper case
+        window.location.href = 'LettersPage/SmaI/i.html'; // Change URL to your specific page for upper case
     });
 
     J.addEventListener('click', function() {
-        window.location.href = 'LettersPage/J.html'; // Change URL to your specific page for lower case
+        window.location.href = 'LettersPage/SmaJ/j.html'; // Change URL to your specific page for lower case
     });
 
     K.addEventListener('click', function() {
-        window.location.href = 'LettersPage/K.html'; // Change URL to your specific page for upper case
+        window.location.href = 'LettersPage/SmaK/k.html'; // Change URL to your specific page for upper case
     });
 
     L.addEventListener('click', function() {
-        window.location.href = 'LettersPage/L.html'; // Change URL to your specific page for lower case
+        window.location.href = 'LettersPage/SmaL/l.html'; // Change URL to your specific page for lower case
     });
 
     M.addEventListener('click', function() {
-        window.location.href = 'LettersPage/M.html'; // Change URL to your specific page for upper case
+        window.location.href = 'LettersPage/SmaM/m.html'; // Change URL to your specific page for upper case
     });
 
     N.addEventListener('click', function() {
-        window.location.href = 'LettersPage/N.html'; // Change URL to your specific page for lower case
+        window.location.href = 'LettersPage/SmaN/n.html'; // Change URL to your specific page for lower case
     });
 
     O.addEventListener('click', function() {
-        window.location.href = 'LettersPage/O.html'; // Change URL to your specific page for upper case
+        window.location.href = 'LettersPage/SmaO/o.html'; // Change URL to your specific page for upper case
     });
 
     P.addEventListener('click', function() {
