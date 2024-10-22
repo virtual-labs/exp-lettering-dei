@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     B.addEventListener('click', function() {
-        window.location.href = 'LettersPage/B.html'; // Change URL to your specific page for lower case
+        window.location.href = 'LettersPage/CapB/B.html'; // Change URL to your specific page for lower case
     });
 
     C.addEventListener('click', function() {
