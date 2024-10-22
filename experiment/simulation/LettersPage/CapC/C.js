@@ -2,10 +2,7 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 const dot3 = document.getElementById('dot3');
 const dot1 = document.getElementById('dot1');
-const dot4 = document.getElementById('dot4');
 const arrow1 = document.getElementById('arrow1');
-const arrow2 = document.getElementById('arrow2');
-const arrow3 = document.getElementById('arrow3');
 
 let isDrawing = false;
 let startX = 0;
@@ -24,14 +21,13 @@ function startDrawing(e) {
     const rect = canvas.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
-    let expectedDot = (nextConnection === 'dot3-dot1') ? dot3 : (nextConnection === 'dot3-dot4') ? dot3 : dot4;
+    let expectedDot = (nextConnection === 'dot3-dot1') ? dot3 : dot1;
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     drawToleranceCircle(expectedDot, ctx);
-    drawToleranceCircle(nextConnection.includes('dot1') ? dot1 : dot4, ctx);
 
     if (Math.hypot(x - (expectedDot.offsetLeft + 5), y - (expectedDot.offsetTop + 5)) > tolerance) {
-        alert('Please follow rules and draw accordingly ');
+        alert('Please follow rules and draw accordingly');
         return;
     }
 
@@ -52,7 +48,7 @@ function draw(e) {
     startX = x;
     startY = y;
     ctx.strokeStyle = 'black'; // Change line color to black
-    ctx.lineWidth = 6;
+    ctx.lineWidth = 6;  
 }
 
 function stopDrawing(e) {
@@ -60,31 +56,16 @@ function stopDrawing(e) {
     const rect = canvas.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
-    const targetDot = nextConnection.includes('dot1') ? dot1 : dot4;
 
-    if (Math.hypot(x - (targetDot.offsetLeft + 5), y - (targetDot.offsetTop + 5)) <= tolerance) {
-        const strokeNum = nextConnection === 'dot3-dot1' ? '1' : (nextConnection === 'dot3-dot4' ? '2' : '3');
-        document.getElementById('stroke' + strokeNum).style.display = 'block';
-        console.log('Stopped drawing near', targetDot.id);
-
-        // Toggle arrows visibility
-        if (nextConnection === 'dot3-dot1') {
-            document.getElementById('arrow1').style.display = 'none';
-            document.getElementById('arrow2').style.display = 'block';
-            nextConnection = 'dot3-dot4';
-        } else if (nextConnection === 'dot3-dot4') {
-            document.getElementById('arrow2').style.display = 'none';
-            document.getElementById('arrow3').style.display = 'block';
-            document.getElementById('dot3').style.display = 'none';
-            nextConnection = 'dot4-dot1';
-        } else if (nextConnection === 'dot4-dot1') {
-            document.getElementById('arrow3').style.display = 'none';
-            button.style.display = 'block';
-            congrats.style.display = 'block';
-            document.getElementById('dot4').style.display = 'none';
-            document.getElementById('dot1').style.display = 'none';
-            nextConnection = ''; // All connections done
-        }
+    if (Math.hypot(x - (dot1.offsetLeft + 5), y - (dot1.offsetTop + 5)) <= tolerance) {
+        document.getElementById('stroke1').style.display = 'block';
+        console.log('Stopped drawing near', dot1.id);
+        arrow1.style.display = 'none'; // Hide the arrow
+        dot1.style.display = 'none'; // Hide the dot
+        dot3.style.display = 'none'; // Hide the dot
+        nextConnection = ''; // All connections done
+        button.style.display = 'block';
+        congrats.style.display = 'block';
         ctx.clearRect(0, 0, canvas.width, canvas.height);
     } else {
         alert('Complete the line. Try Again!');
