@@ -56,9 +56,9 @@ main {
 }
 .instruments-img {
     position: absolute;
-    top: 40px;
+    top: 100px;
     width: 560px;
-    left: 50px;
+    left: 110px;
     height: auto;
     display: block;
     margin: 10px auto;
@@ -85,9 +85,8 @@ main {
 .next-exp {
     position: absolute;
     
-    left: 90%;
-    transform: translateX(-50%); /* Centering button horizontally */
-    top: 320%; /* Position from the bottom */
+    left: 85%;
+    top: 285%;
     padding: 10px 15px;
     color: white;
     background-color: rgb(20, 117, 228);
