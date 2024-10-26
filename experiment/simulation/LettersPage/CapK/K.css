@@ -43,10 +43,10 @@ body {
     
     display: none;
     position: absolute;
-    top: 78px;
-    left: 130px;
+    top: 65px;
+    left: 88px;
     width: 15px;
-    height: 245px;
+    height: 335px;
     
 
 }
@@ -55,10 +55,10 @@ body {
     
     display: none;
     position: absolute;
-    top: 60px;
-    left: 190px;
+    top: 35px;
+    left: 171px;
     width: 15px;
-    height: 185px;
+    height: 265px;
     transform: rotate(40deg);
 
 }
@@ -67,11 +67,11 @@ body {
     
     display: none;
     position: absolute;
-    top: 147px;
-    left: 233px;
+    top: 166px;
+    left: 224px;
     width: 15px;
-    height: 193px;
-    transform: rotate(141deg);
+    height: 258px;
+    transform: rotate(143deg);
 
 }
 
@@ -88,19 +88,19 @@ body {
 }
 #sbox {
     position: relative;
-    left: 90px;
+    left: 115px;
     width: 400px;
     height: 400px;
-    z-index: -10;
-    top: 5px;
+    z-index: -2;
+    display: none;
 }
 
 #trace {
     position: relative;
-    top: -01px;
-   right: 185px;
-    width: 300px;
-    height: 250px;
+    bottom: 15px;
+    right: 93px;
+    width: 600px;
+    height: 450px;
     z-index: -10;
 }
 
@@ -108,7 +108,7 @@ body {
     
     position: absolute;
     top: 80px;
-    left: 80px;
+    left: 30px;
     width: 40px;
     height: 240px;
     transform: rotate(180deg);
@@ -116,8 +116,8 @@ body {
 }
 .arrrow2 {
     
-    top: 50px;
-    left: 170px;
+    top: 110px;
+    left: 130px;
     position: absolute;
     transform: rotate(40deg);
     z-index: 0;
