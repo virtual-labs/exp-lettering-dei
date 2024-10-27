@@ -45,11 +45,11 @@ body {
 
     display: none;
     position: absolute;
-    top: 52px;
-    left: 177px;
+    top: 42px;
+    left: 191px;
     width: 15px;
-    height: 295px;
-    transform: rotate(144deg);
+    height: 383px;
+    transform: rotate(146deg);
     z-index: -1;
 
 }
@@ -57,30 +57,30 @@ body {
 #stroke2 {
     display: none;
     position: absolute;
-    top: 52px;
-    left: 180px;
+    top: 38px;
+    left: 194px;
     width: 15px;
-    height: 295px;
-    transform: rotate(216deg);
+    height: 385px;
+    transform: rotate(214deg);
     z-index: -1;
 
 }
 
 #sbox {
     position: relative;
-    left: 95px;
+    left: 115px;
     width: 400px;
     height: 400px;
-    z-index: -10;
-    top: 5px;
+    z-index: -2;
+    display: none;
 }
 
 #trace {
     position: relative;
-    top: -01px;
-    right: 215px;
-    width: 300px;
-    height: 250px;
+    bottom: 15px;
+    right: 93px;
+    width: 600px;
+    height: 450px;
     z-index: -10;
 }
 
