@@ -48,10 +48,11 @@ body {
 
     display: none;
     position: absolute;
-    top: 70px;
-    left: 116px;
-    width: 15px;
-    height: 285px;
+    top: 60px;
+    left: 79px;
+    width: 240px;
+    height: 360px;
+    z-index: -1;
 
 
 }
@@ -60,11 +61,11 @@ body {
 
     display: none;
     position: absolute;
-    top: 70px;
-    left: 120px;
-    width: 175px;
-    height: 136px;
-    z-index: 1;
+    top: 330px;
+    left: 270px;
+    width: 15px;
+    height: 86px;
+    transform: rotate(141deg);
 
 }
 
@@ -83,18 +84,19 @@ body {
 
 #sbox {
     position: relative;
-    left: 85px;
+    left: 115px;
     width: 400px;
     height: 400px;
-    z-index: -10;
+    z-index: -2;
+    display: none;
 }
 
 #trace {
     position: relative;
-    top: 12px;
-    right: 192px;
-    width: 300px;
-    height: 290px;
+    bottom: 15px;
+    right: 93px;
+    width: 600px;
+    height: 450px;
     z-index: -10;
 }
 
@@ -118,131 +120,6 @@ body {
     height: 100px;
     transform: rotate(10deg);
     z-index: -1;
-}
-
-.arrrow3 {
-    display: none;
-    position: absolute;
-    top: 200px;
-    left: 310px;
-    width: 20px;
-    height: 110px;
-    transform: rotate(180deg);
-    z-index: 0;
-}
-body {
-    display: flex;
-    justify-content: center;
-    /* Center horizontally */
-    align-items: center;
-    /* Center vertically */
-    height: 100vh;
-    /* Full height of the viewport */
-    margin: 0;
-    /* Remove default margin */
-}
-
-#canvas-container {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-}
-
-.dot {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-#stroke1 {
-
-    display: none;
-    position: absolute;
-    top: 30px;
-    left: 49px;
-    width: 300px;
-    height: 340px;
-    z-index: -1;
-
-
-}
-
-#stroke2 {
-
-    display: none;
-    position: absolute;
-    top: 275px;
-    left: 275px;
-    width: 15px;
-    height: 95px;
-    transform: rotate(130deg);
-
-}
-
-#stroke3 {
-
-    display: none;
-    position: absolute;
-    top: 187px;
-    left: 140px;
-    width: 170px;
-    height: 132px;
-
-}
-
-#sbox {
-    position: relative;
-    left: 150px;
-    width: 400px;
-    height: 400px;
-    z-index: -2;
-}
-
-#trace {
-    position: relative;
-    top: -01px;
-    right: 200px;
-    width: 300px;
-    height: 320px;
-    z-index: -1;
-}
-
-.arrrow1 {
-
-    position: absolute;
-    top: 95px;
-    left: 100px;
-    width: 80px;
-    height: 200px;
-    transform: rotate(0deg);
-    z-index: -1;
-    transform: scalex(-1)
-}
-
-.arrrow2 {
-    
-    position: absolute;
-    top: 270px;
-    left: 290px;
-    width: 20px;
-    height: 80px;
-    transform: rotate(132deg);
-    z-index: 0;
 }
 
 .arrrow3 {
