@@ -45,10 +45,10 @@ body {
 
     display: none;
     position: absolute;
-    top: 78px;
-    left: 92px;
+    top: 64px;
+    left: 86px;
     width: 15px;
-    height: 245px;
+    height: 334px;
 
 
 }
@@ -56,54 +56,53 @@ body {
 #stroke2 {
     display: none;
     position: absolute;
-    top: 70px;
-    left: 142px;
+    top: 52px;
+    left: 153px;
     width: 15px;
-    height: 255px;
-    transform: rotate(156deg);
+    height: 358px;
+    transform: rotate(158deg);
     z-index: -1;
-
 }
 
 #stroke3 {
 
     display: none;
     position: absolute;
-    top: 68px;
-    left: 242px;
+    top: 49px;
+    left: 282px;
     width: 15px;
-    height: 260px;
-    transform: rotate(203.5deg);
+    height: 358px;
+    transform: rotate(201deg);
 
 }
 
 #stroke4 {
 
   display: none;
-    position: absolute;
-    top: 70px;
-    left: 295px;
-    width: 15px;
-    height: 254px;
-    transform: rotate(180deg);
+  position: absolute;
+  top: 65px;
+  left: 344px;
+  width: 15px;
+  height: 334px;
+  transform: rotate(180deg);
 
 }
 
 #sbox {
     position: relative;
-    left: 110px;
+    left: 115px;
     width: 400px;
     height: 400px;
-    z-index: -10;
-    top: 5px;
+    z-index: -2;
+    display: none;
 }
 
 #trace {
     position: relative;
-    top: -01px;
-    right: 200px;
-    width: 300px;
-    height: 260px;
+    bottom: 15px;
+    right: 93px;
+    width: 600px;
+    height: 450px;
     z-index: -10;
 }
 
@@ -145,7 +144,7 @@ body {
 
     position: absolute;
     top: 80px;
-    left: 330px;
+    left: 369px;
     width: 30px;
     height: 200px;
     transform: rotate(180deg);
