@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     nine.addEventListener('click', function() {
-        window.location.href = 'NumbersPage/9/eight.html'; // Change URL to your specific page for upper case
+        window.location.href = 'NumbersPage/9/nine.html'; // Change URL to your specific page for upper case
     });
     
 });
