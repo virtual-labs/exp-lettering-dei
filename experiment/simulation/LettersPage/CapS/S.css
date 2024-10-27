@@ -40,10 +40,10 @@ body {
 #stroke1 {
     display: none;
     position: absolute;
-    top: 30px;
-    left: 82px;
-    width: 200px;
-    height: 187px;
+    top: 60px;
+    left: 102px;
+    width: 227px;
+    height: 203px;
     z-index: -1;
     
 
@@ -52,10 +52,11 @@ body {
 #stroke2 {
     display: none;
     position: absolute;
-    top: 175px;
-    left: 75px;
-    width: 215px;
-    height: 189px;
+    top: 212px;
+    left: 72px;
+    width: 249px;
+    height: 200px;
+    transform: rotate(10deg);
 
 }
 
@@ -71,42 +72,43 @@ body {
 }
 #sbox {
     position: relative;
-    left: 100px;
+    left: 115px;
     width: 400px;
     height: 400px;
-    z-index: -10;
+    z-index: -2;
+    display: none;
 }
 
 #trace {
     position: relative;
-    top: -01px;
-   right: 220px;
-    width: 300px;
-    height: 325px;
+    bottom: 15px;
+    right: 93px;
+    width: 600px;
+    height: 450px;
     z-index: -10;
 }
 
 .arrrow1 {
     
     position: absolute;
-    top: 55px;
-    left: 130px;
+    top: 89px;
+    left: 150px;
     width: 80px;
     height: 100px;
     transform: rotate(0deg);
     z-index: -1;
-    transform: scalex(-1)
+    transform: scalex(-1);
 }
 .arrrow2 {
    display: none;
-    position: absolute;
-    top: 215px;
-    left: 170px;
-    width: 80px;
-    height: 100px;
-    transform: rotate(0deg);
-    z-index: -1;
-    transform: scalex(1)
+   position: absolute;
+   top: 266px;
+   left: 190px;
+   width: 80px;
+   height: 100px;
+   transform: rotate(0deg);
+   z-index: -1;
+   transform: scalex(1);
 }
 .arrrow3 {
     display: none;
