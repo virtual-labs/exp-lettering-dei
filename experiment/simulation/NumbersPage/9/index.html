@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Dots</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Full height of the viewport */
+            margin: 0; /* Remove default margin */
+        }
+
+        #canvas-container {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            
+        }
+
+        .dot {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+        #stroke1 {
+            
+            display: none;
+            position: absolute;
+            top: 30px;
+            left: 52px;
+            width: 300px;
+            height: 330px;
+            
+
+        }
+
+        #stroke2 {
+            
+            display: none;
+            position: absolute;
+            top: 70px;
+            left: 140px;
+            width: 170px;
+            height: 125px;
+
+        }
+
+        #stroke3 {
+            
+            display: none;
+            position: absolute;
+            top: 187px;
+            left: 140px;
+            width: 170px;
+            height: 132px;
+
+        }
+        #sbox {
+            position: relative;
+            left: 150px;
+            width: 400px;
+            height: 400px;
+            z-index: -2;
+        }
+
+        #trace {
+            position: relative;
+            top: -01px;
+           right: 200px;
+            width: 300px;
+            height: 320px;
+            z-index: -1;
+        }
+
+        .arrrow1 {
+            
+            position: absolute;
+            top: 95px;
+            left: 100px;
+            width: 80px;
+            height: 200px;
+            transform: rotate(0deg);
+            z-index: -1;
+            transform: scalex(-1)
+        }
+        .arrrow2 {
+            display: none;
+            position: absolute;
+            top: 80px;
+            left: 300px;
+            width: 20px;
+            height: 110px;
+            transform: rotate(180deg);
+            z-index: 0;
+        }
+        .arrrow3 {
+            display: none;
+            position: absolute;
+            top: 200px;
+            left: 310px;
+            width: 20px;
+            height: 110px;
+            transform: rotate(180deg);
+            z-index: 0;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="canvas-container">
+        <canvas id="canvas" width="400" height="400"></canvas>
+        <div class="dot" id="dot3" style="top: 48px; left: 185px;"></div>
+      <!--  <div class="dot" id="dot4" style="top: 190px; left: 145px;"></div> -->
+        <div class="dot" id="dot1" style="top: 48px; left: 215px;"></div>
+        <img id="sbox" src="sboxx.png" >
+       <img id="trace" src="O.png" >
+      <img class="arrrow1" id="arrow1" src="curved arrow.gif" alt="Overlay Image"> 
+       <!--  <img class="arrrow2" id="arrow2" src="without-bg.gif" alt="Overlay Image"> 
+       <img class="arrrow3" id="arrow3" src="without-bg.gif" alt="Overlay Image"> -->
+        <img id="stroke1" src="O1.png" >
+      <!--  <img id="stroke2" src="stroke2.png" >
+        <img id="stroke3" src="stroke2.png" >-->
+    </div>
+    
+    <script>
+        const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+const dot3 = document.getElementById('dot3');
+const dot1 = document.getElementById('dot1');
+const arrow1 = document.getElementById('arrow1');
+
+let isDrawing = false;
+let startX = 0;
+let startY = 0;
+let tolerance = 30; // Tolerance radius for dot connection
+let nextConnection = 'dot3-dot1'; // Start with connecting dot3 to dot1
+
+function drawToleranceCircle(dot, ctx) {
+    ctx.beginPath();
+    ctx.arc(dot.offsetLeft + 5, dot.offsetTop + 5, tolerance, 0, 2 * Math.PI);
+    ctx.strokeStyle = 'rgba(255, 200, 0, 0.5)'; // Visual guide for connection
+    ctx.stroke();
+}
+
+function startDrawing(e) {
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    let expectedDot = (nextConnection === 'dot3-dot1') ? dot3 : dot1;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawToleranceCircle(expectedDot, ctx);
+
+    if (Math.hypot(x - (expectedDot.offsetLeft + 5), y - (expectedDot.offsetTop + 5)) > tolerance) {
+        alert('Please follow rules and draw accordingly');
+        return;
+    }
+
+    isDrawing = true;
+    startX = expectedDot.offsetLeft + 5;
+    startY = expectedDot.offsetTop + 5;
+}
+
+function draw(e) {
+    if (!isDrawing) return;
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    ctx.beginPath();
+    ctx.moveTo(startX, startY);
+    ctx.lineTo(x, y);
+    ctx.stroke();
+    startX = x;
+    startY = y;
+    ctx.strokeStyle = 'black'; // Change line color to black
+    ctx.lineWidth = 6;  
+}
+
+function stopDrawing(e) {
+    if (!isDrawing) return;
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    if (Math.hypot(x - (dot1.offsetLeft + 5), y - (dot1.offsetTop + 5)) <= tolerance) {
+        document.getElementById('stroke1').style.display = 'block';
+        console.log('Stopped drawing near', dot1.id);
+        arrow1.style.display = 'none'; // Hide the arrow
+        nextConnection = ''; // All connections done
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+    } else {
+        alert('Complete the line. Try Again!');
+        ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+    }
+    isDrawing = false;
+}
+
+canvas.addEventListener('mousedown', startDrawing);
+canvas.addEventListener('mousemove', draw);
+canvas.addEventListener('mouseup', stopDrawing);
+
+    </script>
+</body>
+
+</html> 
