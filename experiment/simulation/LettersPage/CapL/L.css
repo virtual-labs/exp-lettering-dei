@@ -44,8 +44,8 @@ body {
     position: absolute;
     top: 62px;
     left: 88px;
-    width: 26px;
-    height: 295px;
+    width: 12px;
+    height: 335px;
     z-index: -1;
     
 
@@ -54,13 +54,13 @@ body {
 #stroke2 {
     
    display: none;
-    position: absolute;
-    top: 247px;
-    left: 184px;
-    width: 26px;
-    height: 215px;
-    z-index: -1;
-    transform: rotate(90deg);
+   position: absolute;
+   top: 280px;
+   left: 191px;
+   width: 15px;
+   height: 220px;
+   z-index: -1;
+   transform: rotate(90deg);
 
 }
 
@@ -76,18 +76,19 @@ body {
 }
 #sbox {
     position: relative;
-    left: 110px;
+    left: 115px;
     width: 400px;
     height: 400px;
-    z-index: -10;
+    z-index: -2;
+    display: none;
 }
 
 #trace {
     position: relative;
-    top: 10px;
-   right: 200px;
-    width: 300px;
-    height: 308px;
+    bottom: 15px;
+    right: 93px;
+    width: 600px;
+    height: 450px;
     z-index: -10;
 }
 
