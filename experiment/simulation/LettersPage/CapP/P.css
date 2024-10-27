@@ -48,10 +48,10 @@ body {
 
     display: none;
     position: absolute;
-    top: 70px;
-    left: 116px;
+    top: 65px;
+    left: 86px;
     width: 15px;
-    height: 285px;
+    height: 335px;
 
 
 }
@@ -60,10 +60,10 @@ body {
 
     display: none;
     position: absolute;
-    top: 70px;
-    left: 120px;
-    width: 175px;
-    height: 136px;
+    top: 64px;
+    left: 88px;
+    width: 231px;
+    height: 166px;
 
 }
 
@@ -82,18 +82,19 @@ body {
 
 #sbox {
     position: relative;
-    left: 85px;
+    left: 115px;
     width: 400px;
     height: 400px;
-    z-index: -10;
+    z-index: -2;
+    display: none;
 }
 
 #trace {
     position: relative;
-    top: 12px;
-    right: 192px;
-    width: 300px;
-    height: 290px;
+    bottom: 15px;
+    right: 93px;
+    width: 600px;
+    height: 450px;
     z-index: -10;
 }
 
@@ -101,7 +102,7 @@ body {
 
     position: absolute;
     top: 80px;
-    left: 80px;
+    left: 30px;
     width: 40px;
     height: 240px;
     transform: rotate(180deg);
