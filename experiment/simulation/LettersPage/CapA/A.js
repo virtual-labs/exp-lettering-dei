@@ -105,12 +105,15 @@ function stopDrawing(e) {
                 nextConnection = 'dot3-dot2'; // Set next connection to dot3-dot2
                 arrow1.style.display = 'none';
                 arrow2.style.display = 'block';
+                dot1.style.display = 'none';
                 break;
             case 'dot3-dot2':
                 strokeId = '2';
                 nextConnection = 'dot4-dot5'; // Set next connection to dot4-dot5
                 arrow2.style.display = 'none';
                 arrow3.style.display = 'block';
+                dot2.style.display = 'none';
+                dot3.style.display = 'none';
                 break;
             case 'dot4-dot5':
                 strokeId = '3';
@@ -118,6 +121,8 @@ function stopDrawing(e) {
                 arrow3.style.display = 'none';
                 button.style.display = 'block';
                 congrats.style.display = 'block';
+                dot4.style.display = 'none';
+                dot5.style.display = 'none';
                 break;
         }
 

@@ -56,20 +56,74 @@ main {
     display: grid;
 }
 
-.lettering-image1  {
+.lettering-image1 {
     top: 200px;
-    width: 50%;
+    width: 30%; /* Responsive width */
     height: auto;
-    left: 0%;
+    left: 5%; /* Adjust left for padding */
     cursor: pointer;
-   
+    background-color: #3452eb;
+    font-size: 2em; /* Responsive font size */
+    position: absolute;
+    border-radius: 10px;
 }
+
 .lettering-image2 {
     top: 200px; /* Adjust top spacing */
-    width: 51%; /* Responsive width */
+    width: 30%; /* Responsive width */
     height: auto; /* Maintain aspect ratio */
-   left: 50%;
+    left: 35%; /* Adjust left for padding */
     cursor: pointer;
+    position: absolute;
+    font-size: 2em; /* Responsive font size */
+    background-color: #3452eb;
+    border-radius: 10px;
+}
+
+.lettering-image3 {
+    top: 400px; /* Adjust top spacing */
+    width: 30%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    left: 65%; /* Adjust left for padding */
+    cursor: pointer;
+    position: absolute;
+    font-size: 2em; /* Responsive font size */
+    background-color: #3452eb;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .lettering-image1, .lettering-image2, .lettering-image3 {
+        width: 45%; /* Adjust width for smaller screens */
+        left: 5%; /* Adjust left for padding */
+        font-size: 1.5em; /* Smaller font size */
+    }
+
+    .lettering-image2 {
+        top: 300px; /* Adjust top spacing */
+        left: 50%; /* Adjust left for padding */
+    }
+
+    .lettering-image3 {
+        top: 500px; /* Adjust top spacing */
+        left: 5%; /* Adjust left for padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .lettering-image1, .lettering-image2, .lettering-image3 {
+        width: 90%; /* Full width for small screens */
+        left: 5%; /* Adjust left for padding */
+        font-size: 1em; /* Smaller font size */
+    }
+
+    .lettering-image2 {
+        top: 250px; /* Adjust top spacing */
+    }
+
+    .lettering-image3 {
+        top: 400px; /* Adjust top spacing */
+    }
 }
 
 .aboutimg1 {
@@ -125,4 +179,67 @@ main {
     .next-exp {
         width: 90%; /* Almost full width for the button */
     }
+}
+
+.header {
+    background-color: #0084ff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.instruction-text {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.option-box {
+    background-color: #e8f0fe;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    height: 100px;
+}
+
+.option-box:hover {
+    transform: scale(1.05);
+}
+
+.option-display {
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+.option-label {
+    margin-top: 150px;
+    font-size: 24px;
+    color: #333;
+}
+
+.capital-letters {
+    font-weight: bold;
+}
+
+.small-letters {
+    font-weight: bold;
+}
+
+.numbers {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
 }
