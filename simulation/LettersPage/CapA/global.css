@@ -1,0 +1,17 @@
+#sbox {
+    position: relative;
+    left: 115px;
+    width: 400px;
+    height: 400px;
+    z-index: -2;
+    display: none;
+}
+
+#trace {
+    position: relative;
+    bottom: 15px;
+    right: 93px;
+    width: 600px;
+    height: 450px;
+    z-index: -10;
+}
