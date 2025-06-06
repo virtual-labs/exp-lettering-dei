@@ -32,9 +32,9 @@ These size variations help differentiate between different elements of the drawi
 
 There are some important points one should keep in mind while lettering:
 1.	All letters should be uniform in shape, slope, size, shade and spacing throughout the drawing. For maintaining uniformity in size, thin and light guide-lines may first be drawn, and lettering may then be done between them (As shown in the simulation).
-2.	The shade of every letter must be the same as that of the outlines of drawings, i.e. intensely black. The shade of every letter must be the same as that of the outlines of drawings, i.e. intensely black.
+2.	The shade of every letter must be the same as that of the outlines of drawings, i.e. intensely black. 
 3.	The spacing between letters doesn’t need to be uniform, but it should be adjusted so that the letters neither appear too close nor too far apart. The gaps between letters should look visually balanced (judging by eyes), with background areas kept roughly equal. The spacing between words should be consistent and at least equal to the height of the letters.
-4.	Lettering should be so done as can be read from the front with the main title horizontal, i.e. when the drawing is viewed from the bottom edge.
+4.	The lettering should be arranged so that it can be read from the bottom edge of the drawing, with the main title written horizontally.
 5.	All sub-titles should be placed below but not too close to the respective views. Lettering, except the dimension figures, should be underlined to make them more prominent.
 
 
