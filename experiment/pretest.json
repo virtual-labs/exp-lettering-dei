@@ -2,38 +2,186 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is \"lettering\" in the context of engineering drawing?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Shading of objects",
+        "b": "Writing critical information on a drawing sheet",
+        "c": "Colouring the drawing",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "b": "Lettering is used for writing critical information on a drawing sheet."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is proper lettering important in engineering drawings?",
+      "answers": {
+        "a": "It adds colour to the drawing",
+        "b": "It improves readability and accuracy",
+        "c": "It only serves an aesthetic purpose",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "Proper lettering improves readability and accuracy."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What are the two main types of letters used in engineering drawings?",
+      "answers": {
+        "a": "Cursive and Bold",
+        "b": "Single-stroke and Gothic",
+        "c": "Italics and Roman",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "The two main types are Single-stroke and Gothic."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does \"single-stroke lettering\" mean?",
+      "answers": {
+        "a": "Drawing letters with uniform thickness",
+        "b": "Writing without lifting the pencil",
+        "c": "Using multiple colours for each letter",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Single-stroke lettering refers to drawing letters with uniform thickness."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Why should drawing instruments be avoided in lettering?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "They are not accurate",
+        "b": "They take considerable time",
+        "c": "They are not allowed in exams",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "b": "Drawing instruments take considerable time, so they are avoided."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Which organization provides lettering standards in India?",
+      "answers": {
+        "a": "Bureau of Indian Standards (BIS)",
+        "b": "Indian Engineering Council (IEC)",
+        "c": "All India Lettering Institute (AILI)",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "The Bureau of Indian Standards (BIS) provides lettering standards in India."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does single-stroke lettering ensure uniform thickness?",
+      "answers": {
+        "a": "By drawing each letter with one consistent stroke",
+        "b": "By using thick pens",
+        "c": "By pressing harder with the pencil",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Single-stroke lettering ensures uniform thickness by using a single consistent stroke."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the recommended size for main titles in engineering drawings?",
+      "answers": {
+        "a": "6-8 mm",
+        "b": "10-12 mm",
+        "c": "3-5 mm",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "The recommended size for main titles is 6-8 mm."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the standard slope angle for inclined letters in engineering drawing?",
+      "answers": {
+        "a": "45°",
+        "b": "75°",
+        "c": "90°",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "The standard slope angle for inclined letters is 75°."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the typical size range for sub-titles and dimension figures in drawings?",
+      "answers": {
+        "a": "1-2 mm",
+        "b": "3-6 mm",
+        "c": "7-8 mm",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "The typical size range for sub-titles and dimension figures is 3-6 mm."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How would you correct spacing if letters appear too close?",
+      "answers": {
+        "a": "Increase letter height",
+        "b": "Adjust gaps by eye for even background space",
+        "c": "Move words to the next line",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "Adjusting gaps by eye helps achieve even background space."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What factors determine the choice between vertical and inclined letters?",
+      "answers": {
+        "a": "Personal preference",
+        "b": "Drawing type and readability needs",
+        "c": "Thickness of lines used",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "Drawing type and readability needs determine the choice between vertical and inclined letters."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What techniques can help achieve consistent thickness in single-stroke letters?",
+      "answers": {
+        "a": "Using guide-lines and controlling pencil pressure",
+        "b": "Adding extra strokes",
+        "c": "Drawing thicker letters initially",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Using guide-lines and controlling pencil pressure helps achieve consistent thickness."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }
