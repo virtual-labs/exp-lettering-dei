@@ -1,1 +1,1 @@
-#### To learn neat and standard lettering for engineering drawings.
+#### To learn standard lettering for engineering drawings.

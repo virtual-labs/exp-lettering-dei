@@ -4,7 +4,7 @@
 3. According to the Bureau of Indian Standards, lettering type 'A' capital letters is divided into 14 parts and lettering type 'B' capital letters is divided into 10 parts. 
 4. Inclined letters lean to the right being 75 degrees to the horizontal. 
 5. Background area between letters should be approximately equal. 
-6. Individual words should be clearly separated by space equal to width of the letter. 
+6. Individual words should be clearly separated by a space equal to 3/5th of the height of the letters.
 7. Space between two numerals with a decimal point between. Minimum two-thirds the lettering height. 
 8. Vertical space between lines of lettering. Not more than the lettering height, and not less than half the lettering height. 
 9. The height-to-width ratio for letters varies between 7:5 or 7:6. 
