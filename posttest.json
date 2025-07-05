@@ -1,0 +1,159 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the impact of poor lettering on engineering drawings?",
+      "answers": {
+        "a": "It enhances creativity",
+        "b": "It reduces readability and precision",
+        "c": "It doesn’t affect the drawing",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "Poor lettering reduces readability and precision in engineering drawings."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How is lettering size determined for different elements in a drawing?",
+      "answers": {
+        "a": "Based on ease of reading and hierarchy",
+        "b": "Based on available space",
+        "c": "Randomly chosen by the drafter",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Lettering size is determined based on ease of reading and hierarchy."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why are sub-titles placed below views in engineering drawings?",
+      "answers": {
+        "a": "To be consistent with guidelines",
+        "b": "To avoid cluttering above the views",
+        "c": "To follow tradition",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "Sub-titles are placed below views to avoid cluttering above the views."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What techniques help improve speed and accuracy in freehand lettering?",
+      "answers": {
+        "a": "Use rulers for all letters",
+        "b": "Practice freehand with consistent letter spacing",
+        "c": "Draw large letters for better control",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "Practicing freehand with consistent letter spacing improves speed and accuracy."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why are different sizes used for titles, sub-titles, and annotations?",
+      "answers": {
+        "a": "To avoid overcrowding and improve readability",
+        "b": "To highlight important areas",
+        "c": "To save space in the drawing",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Different sizes are used to avoid overcrowding and improve readability."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the difference between vertical and inclined letters?",
+      "answers": {
+        "a": "Vertical letters are slanted left, inclined letters are slanted right",
+        "b": "Inclined letters have a 75° slope, vertical letters don’t",
+        "c": "Vertical letters are thicker than inclined letters",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "Inclined letters have a 75° slope, while vertical letters do not."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is maintaining uniform shape, slope, size, shade, and spacing important in lettering?",
+      "answers": {
+        "a": "For artistic appeal",
+        "b": "For consistent readability and professionalism",
+        "c": "For better alignment with drawings",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "Uniformity ensures consistent readability and professionalism."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Where should the main title be positioned on an engineering drawing?",
+      "answers": {
+        "a": "Top of the sheet",
+        "b": "Bottom edge, horizontal alignment",
+        "c": "Anywhere on the sheet",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "The main title should be positioned at the bottom edge with horizontal alignment."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How do guide-lines help with uniform size on detailed engineering drawings?",
+      "answers": {
+        "a": "They provide a base for alignment",
+        "b": "They create contrast in background spacing",
+        "c": "They serve as a grid for other details",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Guide-lines provide a base for alignment, aiding in uniform size."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does background adjustment improve letter spacing?",
+      "answers": {
+        "a": "It eliminates unnecessary gaps",
+        "b": "It ensures letters are equally spaced visually",
+        "c": "It aligns letters with the edges of the sheet",
+        "d": "None of these"
+      },
+      "explanations": {
+        "b": "Background adjustment ensures letters are equally spaced visually."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "When might you use underlined letters versus non-underlined letters in a drawing?",
+      "answers": {
+        "a": "To indicate titles or important dimensions",
+        "b": "To add style to the drawing",
+        "c": "For adding extra detail",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Underlined letters are used to indicate titles or important dimensions."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]
+}

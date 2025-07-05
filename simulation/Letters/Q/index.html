@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Dots</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            /* Center horizontally */
+            align-items: center;
+            /* Center vertically */
+            height: 100vh;
+            /* Full height of the viewport */
+            margin: 0;
+            /* Remove default margin */
+        }
+
+        #canvas-container {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            
+        }
+
+        .dot {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+        #stroke1 {
+
+            display: none;
+            position: absolute;
+            top: 30px;
+            left: 49px;
+            width: 300px;
+            height: 340px;
+            z-index: -1;
+
+
+        }
+
+        #stroke2 {
+
+            display: none;
+            position: absolute;
+            top: 275px;
+            left: 275px;
+            width: 15px;
+            height: 95px;
+            transform: rotate(130deg);
+
+        }
+
+        #stroke3 {
+
+            display: none;
+            position: absolute;
+            top: 187px;
+            left: 140px;
+            width: 170px;
+            height: 132px;
+
+        }
+
+        #sbox {
+            position: relative;
+            left: 150px;
+            width: 400px;
+            height: 400px;
+            z-index: -2;
+        }
+
+        #trace {
+            position: relative;
+            top: -01px;
+            right: 200px;
+            width: 300px;
+            height: 320px;
+            z-index: -1;
+        }
+
+        .arrrow1 {
+
+            position: absolute;
+            top: 95px;
+            left: 100px;
+            width: 80px;
+            height: 200px;
+            transform: rotate(0deg);
+            z-index: -1;
+            transform: scalex(-1)
+        }
+
+        .arrrow2 {
+            
+            position: absolute;
+            top: 270px;
+            left: 290px;
+            width: 20px;
+            height: 80px;
+            transform: rotate(132deg);
+            z-index: 0;
+        }
+
+        .arrrow3 {
+            display: none;
+            position: absolute;
+            top: 200px;
+            left: 310px;
+            width: 20px;
+            height: 110px;
+            transform: rotate(180deg);
+            z-index: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="canvas-container">
+        <canvas id="canvas" width="400" height="400"></canvas>
+        <div class="dot" id="dot3" style="top: 48px; left: 175px;"></div>
+        <div class="dot" id="dot4" style="top: 348px; left: 314px;"></div>
+        <div class="dot" id="dot1" style="top: 48px; left: 225px;"></div>
+        <div class="dot" id="dot2" style="top: 295px; left: 250px;"></div>
+        <img id="sbox" src="sboxx.png">
+        <img id="trace" src="Q.png">
+        <img class="arrrow1" id="arrow1" src="curved arrow.gif" alt="Overlay Image">
+        <img class="arrrow2" id="arrow2" src="without-bg.gif" alt="Overlay Image"> 
+   <!--      <img class="arrrow3" id="arrow3" src="without-bg.gif" alt="Overlay Image"> -->
+        <img id="stroke1" src="O1.png">
+        <img id="stroke2" src="stroke11.png">
+        <!--   <img id="stroke3" src="stroke2.png" >-->
+    </div>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+const dot3 = document.getElementById('dot3');
+const dot1 = document.getElementById('dot1');
+const dot2 = document.getElementById('dot2');
+const dot4 = document.getElementById('dot4');
+const arrow1 = document.getElementById('arrow1');
+const arrow2 = document.getElementById('arrow2');
+
+let isDrawing = false;
+let startX = 0;
+let startY = 0;
+let tolerance = 30; // Tolerance radius for dot connection
+let nextConnection = 'dot3-dot1'; // Start with connecting dot3 to dot1
+
+arrow1.style.display = 'block'; // Initially, arrow1 is visible
+arrow2.style.display = 'none';
+
+function checkDotTolerance(dot, x, y) {
+    return Math.hypot(x - (dot.offsetLeft + 5), y - (dot.offsetTop + 5)) <= tolerance;
+}
+
+function drawToleranceCircle(dot, ctx) {
+    ctx.beginPath();
+    ctx.arc(dot.offsetLeft + 5, dot.offsetTop + 5, tolerance, 0, 2 * Math.PI);
+    ctx.strokeStyle = 'rgba(255, 200, 0, 0.5)'; // Visual guide for connection
+    ctx.stroke();
+}
+
+function startDrawing(e) {
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    let targetDot;
+
+    switch (nextConnection) {
+        case 'dot3-dot1':
+            targetDot = dot3;
+            break;
+        case 'dot2-dot4':
+            targetDot = dot2;
+            break;
+    }
+
+    if (!checkDotTolerance(targetDot, x, y)) {
+        alert('Please follow rules and draw accordingly, Try again!');
+        return; // Do not start drawing if not within tolerance of target dot
+    }
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawToleranceCircle(targetDot, ctx);
+    drawToleranceCircle(nextConnection.includes('dot1') ? dot1 : dot4, ctx);
+
+    isDrawing = true;
+    startX = targetDot.offsetLeft + 5;
+    startY = targetDot.offsetTop + 5;
+}
+
+function draw(e) {
+    if (!isDrawing) return;
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    ctx.beginPath();
+    ctx.moveTo(startX, startY);
+    ctx.lineTo(x, y);
+    ctx.stroke();
+    startX = x;
+    startY = y;
+    ctx.strokeStyle = 'black'; // Change line color to black
+    ctx.lineWidth = 6;
+}
+
+function stopDrawing(e) {
+    if (!isDrawing) return;
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    let targetDot;
+
+    switch (nextConnection) {
+        case 'dot3-dot1':
+            targetDot = dot1;
+            break;
+        case 'dot2-dot4':
+            targetDot = dot4;
+            break;
+    }
+
+    if (checkDotTolerance(targetDot, x, y)) {
+        console.log('Stopped drawing near', targetDot.id);
+        let strokeId;
+        switch (nextConnection) {
+            case 'dot3-dot1':
+                strokeId = '1';
+                nextConnection = 'dot2-dot4'; // Set next connection to dot2-dot4
+                arrow1.style.display = 'none';
+                arrow2.style.display = 'block';
+                dot1.style.display = 'none';
+                dot3.style.display = 'none';
+                break;
+            case 'dot2-dot4':
+                strokeId = '2';
+                nextConnection = 'dot3-dot1'; // Optionally loop back to the start
+                arrow2.style.display = 'none';
+                dot2.style.display = 'none';
+                dot4.style.display = 'none';
+                break;
+        }
+
+        if (strokeId) {
+            document.getElementById('stroke' + strokeId).style.display = 'block';
+        }
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+    } else {
+        alert('Complete the line near the correct dot. Try Again!');
+        ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+    }
+    isDrawing = false;
+}
+
+canvas.addEventListener('mousedown', startDrawing);
+canvas.addEventListener('mousemove', draw);
+canvas.addEventListener('mouseup', stopDrawing);
+
+
+
+    </script>
+</body>
+
+</html>
