@@ -2,15 +2,15 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is \"lettering\" in the context of engineering drawing?",
+      "question": "What is lettering in the context of engineering drawing?",
       "answers": {
         "a": "Shading of objects",
         "b": "Writing critical information on a drawing sheet",
         "c": "Colouring the drawing",
-        "d": "None of these"
+        "d": "Drawing technical symbols"
       },
       "explanations": {
-        "b": "Lettering is used for writing critical information on a drawing sheet."
+        "b": "In engineering drawing, lettering refers to the process of writing essential information such as dimensions, notes, titles, and specifications neatly and legibly on a drawing sheet to ensure proper communication."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -21,10 +21,10 @@
         "a": "It adds colour to the drawing",
         "b": "It improves readability and accuracy",
         "c": "It only serves an aesthetic purpose",
-        "d": "None of these"
+        "d": "It is not important"
       },
       "explanations": {
-        "b": "Proper lettering improves readability and accuracy."
+        "b": "Proper lettering enhances the clarity and accuracy of technical information on the drawing. It ensures that engineers, fabricators, and technicians can interpret data correctly without confusion."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -35,10 +35,10 @@
         "a": "Cursive and Bold",
         "b": "Single-stroke and Gothic",
         "c": "Italics and Roman",
-        "d": "None of these"
+        "d": "Script and Block"
       },
       "explanations": {
-        "b": "The two main types are Single-stroke and Gothic."
+        "b": "Engineering drawings commonly use Single-stroke letters for efficiency and Gothic style for clarity and uniformity. These types are standardized for technical legibility."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -49,10 +49,10 @@
         "a": "Drawing letters with uniform thickness",
         "b": "Writing without lifting the pencil",
         "c": "Using multiple colours for each letter",
-        "d": "None of these"
+        "d": "Drawing letters with a single, continuous stroke"
       },
       "explanations": {
-        "a": "Single-stroke lettering refers to drawing letters with uniform thickness."
+        "a": "Single-stroke lettering involves drawing each letter using a single, continuous stroke of uniform thickness, making it quicker to write and easier to read in technical contexts."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -63,10 +63,10 @@
         "a": "They are not accurate",
         "b": "They take considerable time",
         "c": "They are not allowed in exams",
-        "d": "None of these"
+        "d": "They are too expensive"
       },
       "explanations": {
-        "b": "Drawing instruments take considerable time, so they are avoided."
+        "b": "Using drawing instruments like templates or stencils can be time-consuming. Freehand lettering is preferred in practice and exams due to its speed and adequacy for clarity."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -77,10 +77,10 @@
         "a": "Bureau of Indian Standards (BIS)",
         "b": "Indian Engineering Council (IEC)",
         "c": "All India Lettering Institute (AILI)",
-        "d": "None of these"
+        "d": "Indian Standards Organization (ISO)"
       },
       "explanations": {
-        "a": "The Bureau of Indian Standards (BIS) provides lettering standards in India."
+        "a": "The Bureau of Indian Standards (BIS) is the national body responsible for formulating guidelines, including those for lettering styles, sizes, and layouts in engineering drawings."
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
@@ -91,10 +91,10 @@
         "a": "By drawing each letter with one consistent stroke",
         "b": "By using thick pens",
         "c": "By pressing harder with the pencil",
-        "d": "None of these"
+        "d": "By using multiple strokes for each letter"
       },
       "explanations": {
-        "a": "Single-stroke lettering ensures uniform thickness by using a single consistent stroke."
+        "a": "Single-stroke lettering ensures uniformity by using one controlled motion per character, maintaining even thickness across all lines, which contributes to a clean and consistent appearance."
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
@@ -105,10 +105,10 @@
         "a": "6-8 mm",
         "b": "10-12 mm",
         "c": "3-5 mm",
-        "d": "None of these"
+        "d": "1-2 mm"
       },
       "explanations": {
-        "a": "The recommended size for main titles is 6-8 mm."
+        "a": "The recommended height for main titles is 6-8 mm, as per BIS standards. This size ensures visibility and prominence without overwhelming the drawing."
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
@@ -119,10 +119,10 @@
         "a": "45°",
         "b": "75°",
         "c": "90°",
-        "d": "None of these"
+        "d": "60°"
       },
       "explanations": {
-        "b": "The standard slope angle for inclined letters is 75°."
+        "b": "Inclined lettering typically leans at a 75° angle to the horizontal line. This standardization improves aesthetics and helps maintain a consistent style throughout the sheet."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -133,10 +133,10 @@
         "a": "1-2 mm",
         "b": "3-6 mm",
         "c": "7-8 mm",
-        "d": "None of these"
+        "d": "9-10 mm"
       },
       "explanations": {
-        "b": "The typical size range for sub-titles and dimension figures is 3-6 mm."
+        "b": "For sub-titles and dimension figures, the commonly accepted size is between 3 to 6 mm, allowing them to be legible without drawing too much attention away from the main content."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -147,10 +147,10 @@
         "a": "Increase letter height",
         "b": "Adjust gaps by eye for even background space",
         "c": "Move words to the next line",
-        "d": "None of these"
+        "d": "Use a ruler to measure gaps"
       },
       "explanations": {
-        "b": "Adjusting gaps by eye helps achieve even background space."
+        "b": "To maintain balanced appearance, spacing between letters should be adjusted visually by observing the background space and modifying gaps to appear uniformly distributed."
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
@@ -161,10 +161,10 @@
         "a": "Personal preference",
         "b": "Drawing type and readability needs",
         "c": "Thickness of lines used",
-        "d": "None of these"
+        "d": "Size of the drawing sheet"
       },
       "explanations": {
-        "b": "Drawing type and readability needs determine the choice between vertical and inclined letters."
+        "b": "Vertical or inclined letters are chosen based on the nature of the drawing and its readability. Inclined lettering may offer a stylistic advantage, while vertical lettering is generally more formal and standard."
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
@@ -175,10 +175,10 @@
         "a": "Using guide-lines and controlling pencil pressure",
         "b": "Adding extra strokes",
         "c": "Drawing thicker letters initially",
-        "d": "None of these"
+        "d":  "Using different pencils for each letter"
       },
       "explanations": {
-        "a": "Using guide-lines and controlling pencil pressure helps achieve consistent thickness."
+        "a": "Using light guide-lines for alignment and applying even pencil pressure throughout the stroke helps maintain consistent letter thickness, leading to a professional and standardized appearance."
       },
       "correctAnswer": "a",
       "difficulty": "advanced"

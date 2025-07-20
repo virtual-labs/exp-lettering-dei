@@ -7,10 +7,10 @@
         "a": "It enhances creativity",
         "b": "It reduces readability and precision",
         "c": "It doesn’t affect the drawing",
-        "d": "None of these"
+        "d": "It makes the drawing look more complex"
       },
       "explanations": {
-        "b": "Poor lettering reduces readability and precision in engineering drawings."
+        "b": "Poor lettering results in unclear and difficult-to-read text, which can lead to misinterpretation of important details, reducing the accuracy and effectiveness of technical communication in engineering drawings."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -21,10 +21,10 @@
         "a": "Based on ease of reading and hierarchy",
         "b": "Based on available space",
         "c": "Randomly chosen by the drafter",
-        "d": "None of these"
+        "d": "Based on the type of drawing"
       },
       "explanations": {
-        "a": "Lettering size is determined based on ease of reading and hierarchy."
+        "a": "Lettering size is chosen to ensure clarity and proper emphasis. Larger sizes are used for main titles, while smaller sizes are used for notes or dimensions, helping maintain visual hierarchy and easy interpretation."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -35,10 +35,10 @@
         "a": "To be consistent with guidelines",
         "b": "To avoid cluttering above the views",
         "c": "To follow tradition",
-        "d": "None of these"
+        "d":  "To make the drawing look better"
       },
       "explanations": {
-        "b": "Sub-titles are placed below views to avoid cluttering above the views."
+        "b": "Placing sub-titles below the views avoids visual interference with the drawing itself, maintains clean spacing, and aligns with standard drafting conventions for better organization."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -49,10 +49,10 @@
         "a": "Use rulers for all letters",
         "b": "Practice freehand with consistent letter spacing",
         "c": "Draw large letters for better control",
-        "d": "None of these"
+        "d": "Use multiple tools for different letters"
       },
       "explanations": {
-        "b": "Practicing freehand with consistent letter spacing improves speed and accuracy."
+        "b": "Regular practice of freehand lettering with attention to consistent spacing and size helps develop muscle memory and control, resulting in improved speed and legibility without the need for tools."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -63,10 +63,10 @@
         "a": "To avoid overcrowding and improve readability",
         "b": "To highlight important areas",
         "c": "To save space in the drawing",
-        "d": "None of these"
+        "d": "To make the drawing look more complex"
       },
       "explanations": {
-        "a": "Different sizes are used to avoid overcrowding and improve readability."
+        "a": "Using different text sizes helps organize the information clearly, prevents visual clutter, and ensures that important sections like titles stand out, enhancing readability for the viewer."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -77,10 +77,10 @@
         "a": "Vertical letters are slanted left, inclined letters are slanted right",
         "b": "Inclined letters have a 75° slope, vertical letters don’t",
         "c": "Vertical letters are thicker than inclined letters",
-        "d": "None of these"
+        "d": "Vertical letters are used for titles, inclined letters for dimensions"
       },
       "explanations": {
-        "b": "Inclined letters have a 75° slope, while vertical letters do not."
+        "b": "Inclined (italic) lettering typically leans at an angle of about 75° to the horizontal for stylistic consistency, while vertical lettering stands upright. This distinction helps maintain uniformity in drawing presentation."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -91,10 +91,10 @@
         "a": "For artistic appeal",
         "b": "For consistent readability and professionalism",
         "c": "For better alignment with drawings",
-        "d": "None of these"
+        "d": "For faster drawing"
       },
       "explanations": {
-        "b": "Uniformity ensures consistent readability and professionalism."
+        "b": "Uniform lettering ensures that all text elements appear clean, professional, and easy to read. It prevents visual distractions and misinterpretations, contributing to the overall precision of technical documentation."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -105,10 +105,10 @@
         "a": "Top of the sheet",
         "b": "Bottom edge, horizontal alignment",
         "c": "Anywhere on the sheet",
-        "d": "None of these"
+        "d": "Left side of the sheet"
       },
       "explanations": {
-        "b": "The main title should be positioned at the bottom edge with horizontal alignment."
+        "b": "According to standard drafting practices, the main title is placed at the bottom edge of the sheet in a horizontal orientation to ensure consistent layout and immediate visibility when filing or referencing."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -119,10 +119,10 @@
         "a": "They provide a base for alignment",
         "b": "They create contrast in background spacing",
         "c": "They serve as a grid for other details",
-        "d": "None of these"
+        "d": "They are not necessary"
       },
       "explanations": {
-        "a": "Guide-lines provide a base for alignment, aiding in uniform size."
+        "a": "Guide-lines are lightly drawn horizontal lines that help maintain uniform height and alignment of letters, ensuring consistency and legibility in all parts of the drawing."
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
@@ -133,10 +133,10 @@
         "a": "It eliminates unnecessary gaps",
         "b": "It ensures letters are equally spaced visually",
         "c": "It aligns letters with the edges of the sheet",
-        "d": "None of these"
+        "d": "To fill space in the drawing"
       },
       "explanations": {
-        "b": "Background adjustment ensures letters are equally spaced visually."
+        "b": "Adjusting the background visually ensures uniform spacing between letters by compensating for the natural optical differences in letter shapes, leading to cleaner and more readable text."
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
@@ -147,10 +147,10 @@
         "a": "To indicate titles or important dimensions",
         "b": "To add style to the drawing",
         "c": "For adding extra detail",
-        "d": "None of these"
+        "d": "To fill space in the drawing"
       },
       "explanations": {
-        "a": "Underlined letters are used to indicate titles or important dimensions."
+        "a": "Underlining is used in technical drawings to emphasize headings, titles, or critical annotations, helping them stand out without cluttering the rest of the content."
       },
       "correctAnswer": "a",
       "difficulty": "advanced"
