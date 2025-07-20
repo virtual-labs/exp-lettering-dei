@@ -1,0 +1,383 @@
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/A/A.js
+  119:25  warning  'button' is not defined    no-undef
+  120:25  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/B/B.js
+   6:7   warning  'arrow1' is assigned a value but never used  no-unused-vars
+   7:7   warning  'arrow2' is assigned a value but never used  no-unused-vars
+   8:7   warning  'arrow3' is assigned a value but never used  no-unused-vars
+  81:13  warning  'button' is not defined                      no-undef
+  82:13  warning  'congrats' is not defined                    no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/C/C.js
+  65:9  warning  'button' is not defined    no-undef
+  66:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/D/D.js
+   7:7   warning  'arrow1' is assigned a value but never used  no-unused-vars
+   8:7   warning  'arrow2' is assigned a value but never used  no-unused-vars
+   9:7   warning  'arrow3' is assigned a value but never used  no-unused-vars
+  86:13  warning  'button' is not defined                      no-undef
+  87:13  warning  'congrats' is not defined                    no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/E/E.js
+  135:17  warning  'button' is not defined    no-undef
+  136:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/F/F.js
+   23:1   warning  'arrow4' is not defined    no-undef
+  120:17  warning  'button' is not defined    no-undef
+  121:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/G/G.js
+  105:17  warning  'button' is not defined    no-undef
+  106:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/H/H.js
+  121:25  warning  'button' is not defined    no-undef
+  122:25  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/I/I.js
+  64:9  warning  'button' is not defined    no-undef
+  65:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/J/J.js
+  64:17  warning  'button' is not defined    no-undef
+  65:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/K/K.js
+  125:17  warning  'button' is not defined    no-undef
+  126:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/L/L.js
+  81:9  warning  'button' is not defined    no-undef
+  82:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/M/M.js
+  132:17  warning  'button' is not defined    no-undef
+  133:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/N/N.js
+  115:17  warning  'button' is not defined    no-undef
+  116:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/O/O.js
+  64:9  warning  'button' is not defined    no-undef
+  65:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/P/P.js
+  108:17  warning  'button' is not defined    no-undef
+  109:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/Q/Q.js
+  108:17  warning  'button' is not defined    no-undef
+  109:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/R/R.js
+  122:17  warning  'button' is not defined    no-undef
+  123:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/S/S.js
+  85:9  warning  'button' is not defined    no-undef
+  86:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/T/T.js
+  111:17  warning  'button' is not defined    no-undef
+  112:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/U/U.js
+    4:7   warning  'dot2' is assigned a value but never used  no-unused-vars
+    7:7   warning  'dot6' is assigned a value but never used  no-unused-vars
+  108:17  warning  'button' is not defined                    no-undef
+  109:17  warning  'congrats' is not defined                  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/V/V.js
+    4:7   warning  'dot2' is assigned a value but never used  no-unused-vars
+    7:7   warning  'dot6' is assigned a value but never used  no-unused-vars
+  107:17  warning  'button' is not defined                    no-undef
+  108:17  warning  'congrats' is not defined                  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/W/W.js
+  137:17  warning  'button' is not defined    no-undef
+  138:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/X/X.js
+  105:17  warning  'button' is not defined    no-undef
+  106:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/Y/Y.js
+  119:17  warning  'button' is not defined    no-undef
+  120:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/Letters/Z/Z.js
+  117:17  warning  'button' is not defined    no-undef
+  118:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapA/A.js
+  122:17  warning  'button' is not defined    no-undef
+  123:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapB/B.js
+   6:7   warning  'arrow1' is assigned a value but never used  no-unused-vars
+   7:7   warning  'arrow2' is assigned a value but never used  no-unused-vars
+   8:7   warning  'arrow3' is assigned a value but never used  no-unused-vars
+  82:13  warning  'button' is not defined                      no-undef
+  83:13  warning  'congrats' is not defined                    no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapC/C.js
+  67:9  warning  'button' is not defined    no-undef
+  68:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapD/D.js
+   7:7   warning  'arrow1' is assigned a value but never used  no-unused-vars
+   8:7   warning  'arrow2' is assigned a value but never used  no-unused-vars
+   9:7   warning  'arrow3' is assigned a value but never used  no-unused-vars
+  88:13  warning  'button' is not defined                      no-undef
+  89:13  warning  'congrats' is not defined                    no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapE/E.js
+  135:17  warning  'button' is not defined    no-undef
+  136:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapF/F.js
+   23:1   warning  'arrow4' is not defined    no-undef
+  120:17  warning  'button' is not defined    no-undef
+  121:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapG/G.js
+  105:17  warning  'button' is not defined    no-undef
+  106:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapH/H.js
+  121:25  warning  'button' is not defined    no-undef
+  122:25  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapI/I.js
+  64:9  warning  'button' is not defined    no-undef
+  65:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapJ/J.js
+  64:17  warning  'button' is not defined    no-undef
+  65:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapK/K.js
+  125:17  warning  'button' is not defined    no-undef
+  126:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapL/L.js
+  81:9  warning  'button' is not defined    no-undef
+  82:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapM/M.js
+  132:17  warning  'button' is not defined    no-undef
+  133:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapN/N.js
+  115:17  warning  'button' is not defined    no-undef
+  116:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapO/O.js
+  64:9  warning  'button' is not defined    no-undef
+  65:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapP/P.js
+  108:17  warning  'button' is not defined    no-undef
+  109:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapQ/Q.js
+  108:17  warning  'button' is not defined    no-undef
+  109:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapR/R.js
+  122:17  warning  'button' is not defined    no-undef
+  123:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapS/S.js
+  85:9  warning  'button' is not defined    no-undef
+  86:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapT/T.js
+  111:17  warning  'button' is not defined    no-undef
+  112:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapU/U.js
+    4:7   warning  'dot2' is assigned a value but never used  no-unused-vars
+    7:7   warning  'dot6' is assigned a value but never used  no-unused-vars
+  108:17  warning  'button' is not defined                    no-undef
+  109:17  warning  'congrats' is not defined                  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapV/V.js
+    4:7   warning  'dot2' is assigned a value but never used  no-unused-vars
+    7:7   warning  'dot6' is assigned a value but never used  no-unused-vars
+  107:17  warning  'button' is not defined                    no-undef
+  108:17  warning  'congrats' is not defined                  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapW/W.js
+  137:17  warning  'button' is not defined    no-undef
+  138:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapX/X.js
+  105:17  warning  'button' is not defined    no-undef
+  106:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapY/Y.js
+  119:17  warning  'button' is not defined    no-undef
+  120:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/CapZ/Z.js
+  117:17  warning  'button' is not defined    no-undef
+  118:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaA/a.js
+  108:17  warning  'button' is not defined    no-undef
+  109:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaB/b.js
+  110:17  warning  'button' is not defined    no-undef
+  111:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaC/c.js
+  64:9  warning  'button' is not defined    no-undef
+  65:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaD/d.js
+  107:17  warning  'congrats' is not defined  no-undef
+  109:17  warning  'button' is not defined    no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaE/e.js
+  110:25  warning  'button' is not defined    no-undef
+  111:25  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaF/f.js
+  110:17  warning  'button' is not defined    no-undef
+  111:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaG/g.js
+  108:17  warning  'button' is not defined    no-undef
+  109:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaH/h.js
+  110:25  warning  'button' is not defined    no-undef
+  111:25  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaI/i.js
+  64:17  warning  'button' is not defined    no-undef
+  65:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaJ/j.js
+  64:17  warning  'button' is not defined    no-undef
+  65:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaK/k.js
+  127:17  warning  'button' is not defined    no-undef
+  128:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaL/l.js
+  64:17  warning  'button' is not defined    no-undef
+  65:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaM/m.js
+  97:17  warning  'button' is not defined    no-undef
+  98:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaN/n.js
+  85:17  warning  'button' is not defined    no-undef
+  86:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaO/o.js
+  12:13  warning  'nextConnection' is assigned a value but never used  no-unused-vars
+  75:17  warning  'button' is not defined                              no-undef
+  76:17  warning  'congrats' is not defined                            no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaP/p.js
+  112:25  warning  'button' is not defined    no-undef
+  113:25  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaQ/q.js
+    8:15  warning  'stroke1' is assigned a value but never used  no-unused-vars
+  117:25  warning  'button' is not defined                       no-undef
+  118:25  warning  'congrats' is not defined                     no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaR/r.js
+  85:9  warning  'button' is not defined    no-undef
+  86:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaS/s.js
+  85:9  warning  'button' is not defined    no-undef
+  86:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaT/t.js
+  111:25  warning  'button' is not defined    no-undef
+  112:25  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaU/u.js
+    4:7   warning  'dot2' is assigned a value but never used  no-unused-vars
+    7:7   warning  'dot6' is assigned a value but never used  no-unused-vars
+  108:17  warning  'button' is not defined                    no-undef
+  109:17  warning  'congrats' is not defined                  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaV/v.js
+    4:7   warning  'dot2' is assigned a value but never used  no-unused-vars
+    7:7   warning  'dot6' is assigned a value but never used  no-unused-vars
+  108:17  warning  'button' is not defined                    no-undef
+  109:17  warning  'congrats' is not defined                  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaW/w.js
+  137:17  warning  'button' is not defined    no-undef
+  138:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaX/x.js
+  109:17  warning  'button' is not defined    no-undef
+  110:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaY/y.js
+  119:17  warning  'button' is not defined    no-undef
+  120:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/LettersPage/SmaZ/z.js
+  117:17  warning  'button' is not defined    no-undef
+  118:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/NumbersPage/0/0.js
+  64:9  warning  'button' is not defined    no-undef
+  65:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/NumbersPage/1/1.js
+  111:17  warning  'button' is not defined    no-undef
+  112:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/NumbersPage/2/2.js
+  111:25  warning  'button' is not defined    no-undef
+  112:25  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/NumbersPage/3/3.js
+  111:25  warning  'button' is not defined    no-undef
+  112:25  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/NumbersPage/4/4.js
+  117:17  warning  'button' is not defined    no-undef
+  118:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/NumbersPage/5/5.js
+  117:17  warning  'button' is not defined    no-undef
+  118:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/NumbersPage/6/6.js
+  64:9  warning  'button' is not defined    no-undef
+  65:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/NumbersPage/7/7.js
+  111:17  warning  'button' is not defined    no-undef
+  112:17  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/NumbersPage/8/8.js
+  86:9  warning  'button' is not defined    no-undef
+  87:9  warning  'congrats' is not defined  no-undef
+
+/home/runner/work/exp-lettering-dei/exp-lettering-dei/experiment/simulation/NumbersPage/9/9.js
+  64:9  warning  'button' is not defined    no-undef
+  65:9  warning  'congrats' is not defined  no-undef
+
+✖ 204 problems (0 errors, 204 warnings)
+

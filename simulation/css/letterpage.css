@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures main is at least as tall as the viewport */
+}
+
+.simulation-container {
+    background-color: rgba(220, 229, 236, 1);
+    width: 90%; /* Responsive width */
+    max-width: 1000px; /* Max width to maintain design integrity */
+    min-height: 700px; /* Minimum height */
+    margin: 20px auto; /* Auto margins for centering */
+    position: relative; /* Needed for absolute positioning of child elements */
+}
+
+.title {
+    margin: 0;
+    padding: 5px;
+    letter-spacing: 0.1em;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensure it fills the container */
+}
+
+.content-container {
+    padding: 10px;
+}
+
+.content-main, .lettering-image1, .lettering-image2 {
+    position: absolute;
+    display: block;
+    text-align: justify;
+    width: 75%; /* Responsive width */
+    left: 10%; /* Center content */
+    right: 10%; /* Maintain padding on the right */
+}
+
+.instruction-main {
+    position: relative;
+    display: grid;
+}
+
+.lettering-image1 {
+    top: 200px;
+    width: 30%; /* Responsive width */
+    height: auto;
+    left: 5%; /* Adjust left for padding */
+    cursor: pointer;
+    background-color: #3452eb;
+    font-size: 2em; /* Responsive font size */
+    position: absolute;
+    border-radius: 10px;
+}
+
+.lettering-image2 {
+    top: 200px; /* Adjust top spacing */
+    width: 30%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    left: 35%; /* Adjust left for padding */
+    cursor: pointer;
+    position: absolute;
+    font-size: 2em; /* Responsive font size */
+    background-color: #3452eb;
+    border-radius: 10px;
+}
+
+.lettering-image3 {
+    top: 400px; /* Adjust top spacing */
+    width: 30%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    left: 65%; /* Adjust left for padding */
+    cursor: pointer;
+    position: absolute;
+    font-size: 2em; /* Responsive font size */
+    background-color: #3452eb;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .lettering-image1, .lettering-image2, .lettering-image3 {
+        width: 45%; /* Adjust width for smaller screens */
+        left: 5%; /* Adjust left for padding */
+        font-size: 1.5em; /* Smaller font size */
+    }
+
+    .lettering-image2 {
+        top: 300px; /* Adjust top spacing */
+        left: 50%; /* Adjust left for padding */
+    }
+
+    .lettering-image3 {
+        top: 500px; /* Adjust top spacing */
+        left: 5%; /* Adjust left for padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .lettering-image1, .lettering-image2, .lettering-image3 {
+        width: 90%; /* Full width for small screens */
+        left: 5%; /* Adjust left for padding */
+        font-size: 1em; /* Smaller font size */
+    }
+
+    .lettering-image2 {
+        top: 250px; /* Adjust top spacing */
+    }
+
+    .lettering-image3 {
+        top: 400px; /* Adjust top spacing */
+    }
+}
+
+.aboutimg1 {
+    position: absolute;
+    top: 565px; /* Positioning from the top */
+    left: 30%; /* Center horizontally */
+    transform: translateX(-50%); /* Precisely center */
+}
+.aboutimg2  {
+    position: absolute;
+    top: 560px; /* Positioning from the top */
+    left: 80%; /* Center horizontally */
+    transform: translateX(-50%); /* Precisely center */
+}
+.next-exp {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Center button horizontally */
+    bottom: 20px; /* Position from the bottom */
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(20, 117, 228);
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .content-main {
+        width: 95%; /* Using more of the screen on smaller devices */
+        left: 2.5%; /* Adjusting left for padding */
+        right: 2.5%; /* Adjusting right for padding */
+    }
+    .lettering-image1 {
+        top: 150px; /* Adjusting top spacing */
+    }
+
+    .lettering-image2 {
+        top: 150px; /* Adjusting top spacing */
+    }
+
+    .next-exp {
+        width: 80%; /* Wider button for easier interaction on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .title, .content-main, .lettering-image1, .lettering-image2 {
+        font-size: 0.8em; /* Smaller text for better readability on small devices */
+    }
+
+    .next-exp {
+        width: 90%; /* Almost full width for the button */
+    }
+}
+
+.header {
+    background-color: #0084ff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.instruction-text {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.option-box {
+    background-color: #e8f0fe;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    height: 100px;
+}
+
+.option-box:hover {
+    transform: scale(1.05);
+}
+
+.option-display {
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+.option-label {
+    margin-top: 150px;
+    font-size: 24px;
+    color: #333;
+}
+
+.capital-letters {
+    font-weight: bold;
+}
+
+.small-letters {
+    font-weight: bold;
+}
+
+.numbers {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
